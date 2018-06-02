@@ -1,0 +1,107 @@
+@import '~@swimlane/ngx-datatable/release/index.css';
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';
+@import '../bootstrap-variables';
+
+.ngx-datatable {
+	font-size: 14px;
+	margin-bottom: 50px;
+
+	.datatable-header {
+		height: auto !important;
+		padding: 6px;
+		color: $gray-700;
+		font-weight: bold;
+		background-color: $gray-200;
+		border-bottom: 2px solid #ddd;
+
+		.datatable-header-cell {
+			vertical-align: bottom;
+			line-height: 2.4;
+		}
+	}
+
+	.datatable-body {
+		border-bottom: 1px solid $gray-200;
+
+		.datatable-body-row {
+			line-height: 1.4;
+			vertical-align: top;
+			background-color: $white;
+			border-top: 1px solid #ddd;
+			border-left: 1px solid $gray-200;
+			border-right: 1px solid $gray-200;
+			padding: 8px 0;
+
+			&.active {
+				color: $white;
+				background-color: #1483ff;
+
+			}
+			&:hover {
+				background-color: #ececec;
+			}
+
+			.datatable-body-cell-label {
+				padding: 6px;
+			}
+		}
+	}
+	.datatable-footer {
+
+		.page-count {
+			line-height: 50px;
+			height: 50px;
+			padding: 0 1.2rem;
+		}
+
+		.datatable-pager {
+			margin: 0 10px;
+			vertical-align: top;
+
+			ul {
+				li {
+					margin: 10px 0;
+
+					&:not(.disabled) {
+						&.active,
+						&:hover {
+							a {
+								color: $white;
+								background-color: $blue;
+								border-color: $blue;
+							}
+						}
+					}
+					&.disabled {
+						a {
+							color: $gray-600;
+						}
+					}
+				}
+			}
+
+			a {
+				height: 34px;
+				min-width: 30px;
+				line-height: 1.5;
+				background-color: $white;
+				border: 1px solid #ddd;
+				text-align: center;
+				text-decoration: none;
+				vertical-align: middle;
+				color: $blue;
+				padding: 5px 10px;
+			}
+
+			.datatable-icon-left,
+			.datatable-icon-skip,
+			.datatable-icon-right,
+			.datatable-icon-prev {
+				font-size: 18px;
+				line-height: 27px;
+				padding: 0 3px;
+			}
+		}
+	}
+}
+

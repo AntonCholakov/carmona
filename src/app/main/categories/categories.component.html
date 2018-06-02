@@ -1,0 +1,82 @@
+<ol class="breadcrumb">
+	<li class="breadcrumb-item">Dashboard</li>
+	<li class="breadcrumb-item active">Categories</li>
+</ol>
+
+<div class="container-fluid">
+
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Categories</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-2">
+			<form [formGroup]="searchFormGroup" (ngSubmit)="onSearch()">
+				<div class="search-group input-group">
+					<input type="search"
+						   class="form-control"
+						   formControlName="search">
+					<span class="input-group-btn">
+							<button type="submit" class="btn btn-primary">Search</button>
+						</span>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-10 text-right">
+			<button class="btn btn-outline-primary" (click)="onEditClick()">Create Category</button>
+		</div>
+	</div>
+
+	<hr>
+
+	<ngx-datatable
+		[rows]="categories"
+		[columnMode]="'force'"
+		[headerHeight]="50"
+		[footerHeight]="50"
+		[rowHeight]="'auto'"
+		[externalPaging]="true"
+		[externalSorting]="true"
+		[count]="pager.totalItemsCount"
+		[offset]="pageNumber"
+		[limit]="itemsPerPage"
+		(page)='setPage($event)'
+		(sort)="onSort($event)">
+
+		<ngx-datatable-column name="Name">
+			<ng-template let-row="row" ngx-datatable-cell-template>
+				<span>{{row.name}}</span>
+			</ng-template>
+		</ngx-datatable-column>
+
+		<ngx-datatable-column name="Description" [sortable]="false"
+							  [headerClass]="'text-center'"
+							  [cellClass]="'text-center'">
+			<ng-template let-row="row" ngx-datatable-cell-template>
+				<span>{{row.description}}</span>
+			</ng-template>
+		</ngx-datatable-column>
+
+		<ngx-datatable-column name="Actions" [sortable]="false"
+							  [headerClass]="'text-center'"
+							  [cellClass]="'text-center'">
+			<ng-template let-row="row" ngx-datatable-cell-template>
+				<button type="button"
+						(click)="onEditClick(row)"
+						class="btn btn-sm btn-outline-success">
+					<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+				</button>
+				<button type="button"
+						(click)="onDeleteClick(row)"
+						class="btn btn-sm btn-outline-danger">
+					<i class="fa fa-trash-o" aria-hidden="true"></i>
+				</button>
+			</ng-template>
+		</ngx-datatable-column>
+
+	</ngx-datatable>
+
+</div>
+
