@@ -1,0 +1,43 @@
+<ol class="breadcrumb">
+	<li class="breadcrumb-item">Dashboard</li>
+	<li class="breadcrumb-item active">Questions</li>
+</ol>
+
+<div class="container-fluid">
+
+	<div class="row">
+		<div class="col-md-4">
+			<div class="form-group">
+				<form [formGroup]="formGroup" novalidate>
+					<label>Choose Category</label>
+					<ng-select [items]="categories"
+							   [searchable]="true"
+							   bindLabel="name"
+							   bindValue="id"
+							   formControlName="categoryId"
+							   (change)="onCategoryChange()">
+						<ng-template ng-option-tmp let-item="item">
+							{{item.name}}
+						</ng-template>
+					</ng-select>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div *ngFor="let question of questions">
+		<h3>{{question.text}}</h3>
+		<div *ngFor="let answer of question.answers">
+			<div class="pretty p-default p-curve" #answerInput>
+				<input type="radio"
+					   [value]="answer.id"
+					   [name]="question.id"
+					   (change)="onAnswerSelect(question, answer.id, answerInput)">
+				<div class="state">
+					<label>{{answer.text}}</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

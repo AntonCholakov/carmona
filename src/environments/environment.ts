@@ -5,5 +5,5 @@
 
 export const environment = {
 	production: false,
-	apiUrl: 'https://carmona-db.herokuapp.com'
+	apiUrl: 'http://localhost:3000'
 };

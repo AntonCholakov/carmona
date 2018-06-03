@@ -15,6 +15,7 @@ import { MainHeaderComponent } from './layout/main-header/main-header.component'
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { MainSidebarComponent } from './layout/main-sidebar/main-sidebar.component';
 import { MainRoutingModule } from './main-routing.module';
+import { QuestionsListComponent } from './questions-list/questions-list.component';
 import { QuestionCorrectAnswersModalComponent } from './questions/modals/question-correct-answers-modal/question-correct-answers-modal.component';
 import { QuestionEditModalComponent } from './questions/modals/question-edit-modal/question-edit-modal.component';
 import { QuestionsComponent } from './questions/questions.component';
@@ -41,7 +42,8 @@ import { QuestionsService } from './questions/services/questions.service';
 		CategoryEditModalComponent,
 		QuestionsComponent,
 		QuestionEditModalComponent,
-		QuestionCorrectAnswersModalComponent
+		QuestionCorrectAnswersModalComponent,
+		QuestionsListComponent
 	],
 	entryComponents: [
 		CategoryEditModalComponent,
