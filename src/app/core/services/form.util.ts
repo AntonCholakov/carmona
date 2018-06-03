@@ -8,7 +8,7 @@ export class FormUtil {
 		for (const key in formGroup.controls) {
 			if (formGroup.controls.hasOwnProperty(key)) {
 				const control = formGroup.controls[key];
-				if (control.touched || control instanceof FormArray) { // TODO Check for changes in FormArray
+				if (control.dirty || control instanceof FormArray) { // TODO Check for changes in FormArray
 					data[key] = control.value;
 				}
 			}
