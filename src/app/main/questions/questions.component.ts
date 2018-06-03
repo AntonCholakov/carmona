@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap';
 import { Subscription } from 'rxjs/Subscription';
 import swal from 'sweetalert2';
@@ -15,6 +16,8 @@ import { QuestionsService } from './services/questions.service';
 	styleUrls: ['./questions.component.scss']
 })
 export class QuestionsComponent implements OnInit, OnDestroy {
+
+	manage: boolean;
 
 	questions: Question[];
 	pager: PagerInformationInterface;
@@ -37,6 +40,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 
 	constructor(private questionsService: QuestionsService,
 				private bsModalService: BsModalService,
+				private route: ActivatedRoute,
 				private fb: FormBuilder) {
 		this.pager = {
 			totalItemsCount: 0
@@ -51,6 +55,8 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 		this.searchFormGroup = this.fb.group({
 			search: ''
 		});
+
+		this.manage = this.route.snapshot.data.manage;
 	}
 
 	ngOnInit(): void {

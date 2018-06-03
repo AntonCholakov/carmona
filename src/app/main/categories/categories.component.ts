@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap';
 import { Subscription } from 'rxjs/Subscription';
 import swal from 'sweetalert2';
@@ -14,6 +15,8 @@ import { CategoriesService } from './services/categories.service';
 	styleUrls: ['./categories.component.scss']
 })
 export class CategoriesComponent implements OnInit, OnDestroy {
+
+	manage: boolean;
 
 	categories: Category[];
 	pager: PagerInformationInterface;
@@ -34,6 +37,7 @@ export class CategoriesComponent implements OnInit, OnDestroy {
 
 	constructor(private categoriesService: CategoriesService,
 				private bsModalService: BsModalService,
+				private route: ActivatedRoute,
 				private fb: FormBuilder) {
 		this.pager = {
 			totalItemsCount: 0
@@ -48,6 +52,8 @@ export class CategoriesComponent implements OnInit, OnDestroy {
 		this.searchFormGroup = this.fb.group({
 			search: ''
 		});
+
+		this.manage = this.route.snapshot.data.manage;
 	}
 
 	ngOnInit(): void {

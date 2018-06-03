@@ -23,7 +23,7 @@
 				</div>
 			</form>
 		</div>
-		<div class="col-md-10 text-right">
+		<div *ngIf="manage" class="col-md-10 text-right">
 			<button class="btn btn-outline-primary" (click)="onEditClick()">Create Question</button>
 		</div>
 	</div>
@@ -76,7 +76,8 @@
 			</ng-template>
 		</ngx-datatable-column>
 
-		<ngx-datatable-column name="Actions"
+		<ngx-datatable-column *ngIf="manage"
+							  name="Actions"
 							  [sortable]="false"
 							  [headerClass]="'text-center'"
 							  [cellClass]="'text-center'">

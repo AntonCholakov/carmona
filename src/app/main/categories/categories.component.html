@@ -23,7 +23,7 @@
 				</div>
 			</form>
 		</div>
-		<div class="col-md-10 text-right">
+		<div *ngIf="manage" class="col-md-10 text-right">
 			<button class="btn btn-outline-primary" (click)="onEditClick()">Create Category</button>
 		</div>
 	</div>
@@ -50,7 +50,8 @@
 			</ng-template>
 		</ngx-datatable-column>
 
-		<ngx-datatable-column name="Description" [sortable]="false"
+		<ngx-datatable-column name="Description"
+							  [sortable]="false"
 							  [headerClass]="'text-center'"
 							  [cellClass]="'text-center'">
 			<ng-template let-row="row" ngx-datatable-cell-template>
@@ -58,7 +59,8 @@
 			</ng-template>
 		</ngx-datatable-column>
 
-		<ngx-datatable-column name="Created Date" [sortable]="false"
+		<ngx-datatable-column name="Created Date"
+							  [sortable]="false"
 							  [headerClass]="'text-center'"
 							  [cellClass]="'text-center'">
 			<ng-template let-row="row" ngx-datatable-cell-template>
@@ -66,7 +68,9 @@
 			</ng-template>
 		</ngx-datatable-column>
 
-		<ngx-datatable-column name="Actions" [sortable]="false"
+		<ngx-datatable-column *ngIf="manage"
+							  name="Actions"
+							  [sortable]="false"
 							  [headerClass]="'text-center'"
 							  [cellClass]="'text-center'">
 			<ng-template let-row="row" ngx-datatable-cell-template>

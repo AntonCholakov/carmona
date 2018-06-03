@@ -21,8 +21,22 @@ const routes: Routes = [
 				component: CategoriesComponent
 			},
 			{
+				path: 'categories-manage',
+				component: CategoriesComponent,
+				data: {
+					manage: true
+				}
+			},
+			{
 				path: 'questions',
 				component: QuestionsComponent
+			},
+			{
+				path: 'questions-manage',
+				component: QuestionsComponent,
+				data: {
+					manage: true
+				}
 			},
 			{
 				path: 'questions-list',
