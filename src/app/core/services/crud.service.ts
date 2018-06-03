@@ -21,14 +21,17 @@ export abstract class CrudService<T extends BaseModel, O extends RequestOptions<
 	}
 
 	public post(options: O): Observable<HttpResponse<T>> {
+		options.data['created'] = new Date();
 		return this.http.post(this.buildUrl(options), options.data, []);
 	}
 
 	public put(options: O): Observable<HttpResponse<T>> {
+		options.data['lastUpdated'] = new Date();
 		return this.http.put(this.buildUrl(options), options.data, []);
 	}
 
 	public patch(options: O): Observable<HttpResponse<T>> {
+		options.data['lastUpdated'] = new Date();
 		return this.http.patch(this.buildUrl(options), options.data, []);
 	}
 

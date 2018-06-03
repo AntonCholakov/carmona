@@ -59,6 +59,14 @@
 			</ng-template>
 		</ngx-datatable-column>
 
+		<ngx-datatable-column name="Created Date" [sortable]="false"
+							  [headerClass]="'text-center'"
+							  [cellClass]="'text-center'">
+			<ng-template let-row="row" ngx-datatable-cell-template>
+				<span>{{row.created | date:'medium'}}</span>
+			</ng-template>
+		</ngx-datatable-column>
+
 		<ngx-datatable-column name="Actions" [sortable]="false"
 							  [headerClass]="'text-center'"
 							  [cellClass]="'text-center'">
