@@ -13,6 +13,5 @@ export class Question extends BaseModel {
 
 	constructor() {
 		super();
-		this.questionType = 'radio';
 	}
 }
