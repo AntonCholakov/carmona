@@ -4,6 +4,7 @@ import { Answer } from './answer.model';
 
 export class Question extends BaseModel {
 	text: string;
+	plainText: string;
 	categoryId: number;
 	questionType: string;
 	answers: Answer[];

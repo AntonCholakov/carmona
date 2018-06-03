@@ -8,11 +8,17 @@
 	<div class="modal-body">
 
 		<div class="form-group">
-			<label for="name" class="label">Text <span class="text-warning">*</span></label>
+			<label for="name" class="label">Plain text <span class="text-warning">*</span></label>
 			<input type="text"
 				   id="name"
 				   class="form-control"
-				   formControlName="text">
+				   formControlName="plainText">
+			<app-field-error-message [control]="formGroup.controls['text']"></app-field-error-message>
+		</div>
+
+		<div class="form-group">
+			<label>Text <span class="text-warning">*</span></label>
+			<quill-editor [modules]="quillModules" formControlName="text"></quill-editor>
 			<app-field-error-message [control]="formGroup.controls['text']"></app-field-error-message>
 		</div>
 

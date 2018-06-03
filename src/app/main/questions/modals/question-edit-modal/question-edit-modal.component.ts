@@ -23,12 +23,15 @@ export class QuestionEditModalComponent implements OnInit {
 
 	formGroup: FormGroup;
 
+	quillModules: any;
+
 	constructor(private questionsService: QuestionsService,
 				private categoriesService: CategoriesService,
 				private formUtil: FormUtil,
 				private bsModalService: BsModalService,
 				public bsModalRef: BsModalRef,
 				private fb: FormBuilder) {
+		this.quillModules = this.getQuillModules();
 		this.buildForm();
 	}
 
@@ -80,6 +83,7 @@ export class QuestionEditModalComponent implements OnInit {
 		this.formGroup = this.fb.group({
 			id: question.id,
 			text: [question.text, Validators.required],
+			plainText: [question.plainText, Validators.required],
 			categoryId: [question.categoryId, Validators.required],
 			questionType: [question.questionType, Validators.required],
 			correctAnswerId: question.correctAnswerId,
@@ -110,6 +114,18 @@ export class QuestionEditModalComponent implements OnInit {
 			id: '',
 			text: ['', Validators.required]
 		});
+	}
+
+	private getQuillModules(): any {
+		return {
+			toolbar: [
+				['bold', 'italic', 'underline', 'strike'],
+				['code-block'],
+				[{'list': 'ordered'}, {'list': 'bullet'}],
+				[{'color': []}, {'background': []}],
+				[{'font': []}]
+			]
+		};
 	}
 
 }

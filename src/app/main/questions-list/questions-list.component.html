@@ -25,8 +25,9 @@
 		</div>
 	</div>
 
-	<div *ngFor="let question of questions">
-		<h3>{{question.text}}</h3>
+	<div *ngFor="let question of questions"
+		 class="mt-4">
+		<h3 [innerHTML]="question.text"></h3>
 		<div *ngFor="let answer of question.answers">
 			<div class="pretty p-default p-curve" #answerInput>
 				<input type="radio"

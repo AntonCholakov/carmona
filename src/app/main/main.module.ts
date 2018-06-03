@@ -6,6 +6,7 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { QuillModule } from 'ngx-quill';
 import { SharedModule } from '../shared/shared.module';
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoryEditModalComponent } from './categories/modals/category-edit-modal/category-edit-modal.component';
@@ -29,6 +30,7 @@ import { QuestionsService } from './questions/services/questions.service';
 		NgSelectModule,
 		ModalModule.forRoot(),
 		SweetAlert2Module,
+		QuillModule,
 		BsDropdownModule,
 		SharedModule,
 		MainRoutingModule
