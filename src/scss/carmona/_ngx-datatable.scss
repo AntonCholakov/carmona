@@ -32,6 +32,14 @@
 			border-right: 1px solid $gray-200;
 			padding: 8px 0;
 
+			&.invalid-row {
+				background-color: #ffcece;
+
+				&:hover {
+					background-color: #ffcece;
+				}
+			}
+
 			&.active {
 				color: $white;
 				background-color: #1483ff;

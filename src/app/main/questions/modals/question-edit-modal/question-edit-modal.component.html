@@ -1,0 +1,90 @@
+<form [formGroup]="formGroup" novalidate>
+	<div class="modal-header">
+		<h4 class="modal-title pull-left">{{question.id ? 'Edit' : 'Add'}} Question</h4>
+		<button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	<div class="modal-body">
+
+		<div class="form-group">
+			<label for="name" class="label">Text <span class="text-warning">*</span></label>
+			<input type="text"
+				   id="name"
+				   class="form-control"
+				   formControlName="text">
+			<app-field-error-message [control]="formGroup.controls['text']"></app-field-error-message>
+		</div>
+
+		<div class="form-group">
+			<label class="label">Category <span class="text-warning">*</span></label>
+			<ng-select [items]="categories"
+					   [searchable]="true"
+					   bindLabel="name"
+					   bindValue="id"
+					   formControlName="categoryId">
+				<ng-template ng-option-tmp let-item="item">
+					{{item.name}}
+				</ng-template>
+			</ng-select>
+			<app-field-error-message [control]="formGroup.controls['categoryId']"></app-field-error-message>
+		</div>
+
+		<div class="form-group">
+			<label class="label">Type <span class="text-warning">*</span></label>
+			<ng-select [searchable]="false"
+					   formControlName="questionType">
+				<ng-option [value]="'radio'">Single correct answer</ng-option>
+				<ng-option [value]="'checkbox'" disabled>Multiple correct answers</ng-option>
+				<ng-option [value]="'open'" disabled>Open ended question</ng-option>
+			</ng-select>
+			<app-field-error-message [control]="formGroup.controls['questionType']"></app-field-error-message>
+		</div>
+
+		<div class="form-group">
+			<h5>Answers:</h5>
+			<div formArrayName="answers"
+				 *ngFor="let answer of formGroup.get('answers')['controls']; let i = index"
+				 class="form-group">
+
+				<div [formGroupName]="i" class="row">
+					<div class="col-9">
+						<input type="text"
+							   class="form-control required"
+							   formControlName="text"
+							   (keyup.enter)="onAddAnswerControl($event)"
+							   placeholder="Enter an answer...">
+					</div>
+					<div class="col-3">
+						<button *ngIf="formGroup.get('answers')['controls'].length > 1"
+								type="button"
+								class="btn btn-outline-danger"
+								(click)="onRemoveAnswerControl(i)"
+								tab-index="-1">
+							<i class="fa fa-trash cursor-pointer answer-remove-icon"></i>
+						</button>
+					</div>
+				</div>
+
+			</div>
+			<div>
+				<a (click)="onAddAnswerControl()" class="text-primary">Add another answer</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<small><strong class="text-warning"> * </strong> Required fields</small>
+			</div>
+		</div>
+
+	</div>
+	<div class="modal-footer">
+		<button type="button"
+				class="btn btn-primary"
+				(click)="onSubmit()"
+				[disabled]="!formGroup.valid">Save
+		</button>
+		<button type="button" class="btn btn-default" (click)="bsModalRef.hide()">Close</button>
+	</div>
+</form>

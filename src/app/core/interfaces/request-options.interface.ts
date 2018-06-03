@@ -1,7 +1,7 @@
 import { BaseModel } from '../models/base.model';
 
 export interface RequestOptions<T extends BaseModel> {
-	id?: string;
+	id?: number;
 	data?: T;
 	search?: {
 		field?: string;

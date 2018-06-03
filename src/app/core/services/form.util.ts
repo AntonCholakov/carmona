@@ -1,4 +1,4 @@
-import {FormGroup} from '@angular/forms';
+import { FormArray, FormGroup } from '@angular/forms';
 
 export class FormUtil {
 
@@ -8,7 +8,7 @@ export class FormUtil {
 		for (const key in formGroup.controls) {
 			if (formGroup.controls.hasOwnProperty(key)) {
 				const control = formGroup.controls[key];
-				if (control.touched) {
+				if (control.touched || control instanceof FormArray) { // TODO Check for changes in FormArray
 					data[key] = control.value;
 				}
 			}

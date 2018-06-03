@@ -1,11 +1,3 @@
-/*!
- * CoreUI - Open Source Bootstrap Admin Template
- * @version v1.0.10
- * @link http://coreui.io
- * Copyright (c) 2018 creativeLabs Łukasz Holeczek
- * @license MIT
- */
-
 // Override Boostrap variables
 @import "scss/bootstrap-variables";
 
@@ -23,6 +15,10 @@
 
 @import "scss/simple-line-icons-variables";
 @import "~simple-line-icons/scss/simple-line-icons";
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
 
 @import "scss/carmona/carmona";
 

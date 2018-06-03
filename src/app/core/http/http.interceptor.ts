@@ -49,7 +49,7 @@ export class HttpInterceptor {
 	public patch(url: string, body: any, headers: string[]): Observable<HttpResponse<any>> {
 		const httpHeaders = this.getHttpHeaders(headers);
 
-		return this.httpClient.patch(url, body.data, {
+		return this.httpClient.patch(url, body, {
 			headers: httpHeaders,
 			observe: 'response'
 		}).catch((error) => {
