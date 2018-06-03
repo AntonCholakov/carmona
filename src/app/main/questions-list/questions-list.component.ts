@@ -27,7 +27,14 @@ export class QuestionsListComponent implements OnInit {
 	ngOnInit(): void {
 		this.categoriesService.getAll({}).subscribe((response) => {
 			this.categories = response.body;
-			this.get();
+
+			if (this.categories && this.categories.length) {
+				this.formGroup.patchValue({
+					categoryId: this.categories[0].id
+				});
+
+				this.onCategoryChange();
+			}
 		});
 	}
 
