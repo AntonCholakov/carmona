@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { CollectionUtil } from '../../core/services/collection.util';
 import { Category } from '../categories/models/category.model';
 import { CategoriesService } from '../categories/services/categories.service';
 import { Question } from '../questions/models/question.model';
@@ -33,12 +34,12 @@ export class QuestionsListComponent implements OnInit {
 					categoryId: this.categories[0].id
 				});
 
-				this.onCategoryChange();
+				this.onCriteriaChange();
 			}
 		});
 	}
 
-	onCategoryChange(): void {
+	onCriteriaChange(): void {
 		const categoryId = this.formGroup.value.categoryId;
 		this.get(categoryId);
 	}
@@ -59,13 +60,27 @@ export class QuestionsListComponent implements OnInit {
 				}
 			}
 		}).subscribe((response) => {
-			this.questions = response.body;
+			let questions = response.body;
+
+			if (this.formGroup.value.shuffleAnswers) {
+				questions.forEach(q => {
+					q.answers = CollectionUtil.shuffle(q.answers);
+				});
+			}
+
+			if (this.formGroup.value.shuffleQuestions) {
+				questions = CollectionUtil.shuffle(questions);
+			}
+
+			this.questions = questions;
 		});
 	}
 
 	private buildForm(): void {
 		this.formGroup = this.fb.group({
-			categoryId: ''
+			categoryId: '',
+			shuffleQuestions: false,
+			shuffleAnswers: true
 		});
 	}
 
