@@ -46,7 +46,8 @@ export class CategoriesComponent implements OnInit, OnDestroy {
 		this.pageNumber = 0;
 		this.itemsPerPage = 10;
 
-		this.sortField = 'name';
+		this.sortField = 'created';
+		this.sortOrder = 'desc';
 
 		this.searchField = 'name';
 		this.searchFormGroup = this.fb.group({
