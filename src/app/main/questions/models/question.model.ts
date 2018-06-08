@@ -9,6 +9,8 @@ export class Question extends BaseModel {
 	questionType: string;
 	answers: Answer[];
 	correctAnswerId: number;
+	correctAnswer: string;
+	correctAnswerTrimmed: string;
 
 	category: Category;
 

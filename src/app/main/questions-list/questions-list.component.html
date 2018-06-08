@@ -52,17 +52,26 @@
 	<div *ngFor="let question of questions"
 		 class="mt-4">
 		<h3 [innerHTML]="question.text"></h3>
-		<div *ngFor="let answer of question.answers">
-			<div class="pretty p-default p-curve" #answerInput>
-				<input type="radio"
-					   [value]="answer.id"
-					   [name]="question.id"
-					   (change)="onAnswerSelect(question, answer.id, answerInput)">
-				<div class="state">
-					<label>{{answer.text}}</label>
+		<ng-container *ngIf="question.questionType === 'radio'">
+			<div *ngFor="let answer of question.answers">
+				<div class="pretty p-default p-curve" #answerInput>
+					<input type="radio"
+						   [value]="answer.id"
+						   [name]="question.id"
+						   (change)="onAnswerSelect(question, answer.id, answerInput)">
+					<div class="state">
+						<label>{{answer.text}}</label>
+					</div>
 				</div>
 			</div>
-		</div>
+		</ng-container>
+		<ng-container *ngIf="question.questionType === 'open'">
+			<textarea #textareaInput
+					  class="form-control"
+					  rows="10"
+					  placeholder="Input your answer..."
+					  (keyup)="onOpenAnswerKeyUp(question, textareaInput)"></textarea>
+		</ng-container>
 	</div>
 
 </div>

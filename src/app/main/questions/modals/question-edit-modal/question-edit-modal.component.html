@@ -41,13 +41,13 @@
 			<ng-select [searchable]="false"
 					   formControlName="questionType">
 				<ng-option [value]="'radio'">Single correct answer</ng-option>
+				<ng-option [value]="'open'">Open ended question</ng-option>
 				<ng-option [value]="'checkbox'" disabled>Multiple correct answers</ng-option>
-				<ng-option [value]="'open'" disabled>Open ended question</ng-option>
 			</ng-select>
 			<app-field-error-message [control]="formGroup.controls['questionType']"></app-field-error-message>
 		</div>
 
-		<div class="form-group">
+		<div *ngIf="formGroup.value.questionType === 'radio'" class="form-group">
 			<h5>Answers:</h5>
 			<div formArrayName="answers"
 				 *ngFor="let answer of formGroup.get('answers')['controls']; let i = index"
@@ -65,8 +65,7 @@
 						<button *ngIf="formGroup.get('answers')['controls'].length > 1"
 								type="button"
 								class="btn btn-outline-danger"
-								(click)="onRemoveAnswerControl(i)"
-								tab-index="-1">
+								(click)="onRemoveAnswerControl(i)">
 							<i class="fa fa-trash cursor-pointer answer-remove-icon"></i>
 						</button>
 					</div>

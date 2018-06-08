@@ -44,6 +44,10 @@ export class QuestionEditModalComponent implements OnInit {
 	}
 
 	onSubmit(): void {
+		if (this.formGroup.value.questionType === 'open') {
+			this.formGroup.removeControl('answers');
+		}
+
 		const data = this.formUtil.prepareData(this.formGroup);
 
 		const answers: Answer[] = data.answers;
@@ -112,7 +116,7 @@ export class QuestionEditModalComponent implements OnInit {
 	private getEmptyAnswerControl(): FormGroup {
 		return this.fb.group({
 			id: '',
-			text: ['', Validators.required]
+			text: ''
 		});
 	}
 

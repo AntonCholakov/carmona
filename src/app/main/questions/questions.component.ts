@@ -178,7 +178,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 
 	getRowClass(row: Question): any {
 		return {
-			'invalid-row': !row.correctAnswerId
+			'invalid-row': (row.questionType === 'radio' && !row.correctAnswerId) || (row.questionType === 'open' && !row.correctAnswerTrimmed)
 		};
 	}
 

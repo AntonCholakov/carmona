@@ -32,6 +32,10 @@ export class QuestionCorrectAnswersModalComponent implements OnInit {
 	onSubmit(): void {
 		const data = this.formUtil.prepareData(this.formGroup);
 
+		if (this.question.questionType === 'open') {
+			data.correctAnswerTrimmed = data.correctAnswer.replace(/\s/g, '');
+		}
+
 		this.questionsService.save({
 			id: this.question.id,
 			data: data
@@ -48,7 +52,14 @@ export class QuestionCorrectAnswersModalComponent implements OnInit {
 
 		this.formGroup = this.fb.group({
 			id: question.id,
-			correctAnswerId: [question.correctAnswerId, Validators.required]
+			correctAnswerId: question.correctAnswerId,
+			correctAnswer: question.correctAnswer
 		});
+
+		if (question.questionType === 'radio') {
+			this.formGroup.controls['correctAnswerId'].setValidators(Validators.required);
+		} else if (question.questionType === 'open') {
+			this.formGroup.controls['correctAnswer'].setValidators(Validators.required);
+		}
 	}
 }

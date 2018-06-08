@@ -7,17 +7,28 @@
 	</div>
 	<div class="modal-body">
 
-		<div *ngFor="let answer of question.answers"
-			 class="form-group">
-			<div class="pretty p-default p-curve">
-				<input type="radio"
-					   [value]="answer.id"
-					   formControlName="correctAnswerId">
-				<div class="state p-success-o">
-					<label>{{answer.text}}</label>
+		<ng-container *ngIf="question.questionType === 'radio'">
+			<div *ngFor="let answer of question.answers"
+				 class="form-group">
+				<div class="pretty p-default p-curve">
+					<input type="radio"
+						   [value]="answer.id"
+						   formControlName="correctAnswerId">
+					<div class="state p-success-o">
+						<label>{{answer.text}}</label>
+					</div>
 				</div>
 			</div>
-		</div>
+		</ng-container>
+
+		<ng-container *ngIf="question.questionType === 'open'">
+			<div class="form-group">
+				<textarea class="form-control"
+						  rows="10"
+						  placeholder="Input correct answer..."
+						  formControlName="correctAnswer"></textarea>
+			</div>
+		</ng-container>
 
 	</div>
 	<div class="modal-footer">

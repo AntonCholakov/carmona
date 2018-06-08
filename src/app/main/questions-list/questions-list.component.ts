@@ -52,6 +52,17 @@ export class QuestionsListComponent implements OnInit {
 		}
 	}
 
+	onOpenAnswerKeyUp(question: Question, input: HTMLTextAreaElement): void {
+		const value = input.value.replace(/\s/g, '');
+		if (question.correctAnswerTrimmed === value) {
+			this.renderer.removeClass(input, 'text-danger');
+			this.renderer.addClass(input, 'text-success');
+		} else {
+			this.renderer.removeClass(input, 'text-success');
+			this.renderer.addClass(input, 'text-danger');
+		}
+	}
+
 	private get(categoryId?: number): void {
 		this.questionsService.getAll({
 			getParams: {
@@ -64,7 +75,9 @@ export class QuestionsListComponent implements OnInit {
 
 			if (this.formGroup.value.shuffleAnswers) {
 				questions.forEach(q => {
-					q.answers = CollectionUtil.shuffle(q.answers);
+					if (q.questionType === 'radio') {
+						q.answers = CollectionUtil.shuffle(q.answers);
+					}
 				});
 			}
 
