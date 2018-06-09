@@ -5,8 +5,6 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap';
 import { Subscription } from 'rxjs/Subscription';
 import swal from 'sweetalert2';
 import { PagerInformationInterface } from '../../core/interfaces/pager-information.interface';
-import { Question } from '../questions/models/question.model';
-import { QuestionsService } from '../questions/services/questions.service';
 import { QuestionSourceEditModalComponent } from './modals/question-source-edit-modal/question-source-edit-modal.component';
 import { QuestionSource } from './models/question-source.model';
 import { QuestionSourcesService } from './services/question-sources.service';
@@ -37,10 +35,7 @@ export class QuestionSourcesComponent implements OnInit, OnDestroy {
 
 	onReloadSubscription: Subscription;
 
-	questions: Question[];
-
 	constructor(private questionSourcesService: QuestionSourcesService,
-				private questionsService: QuestionsService,
 				private bsModalService: BsModalService,
 				private route: ActivatedRoute,
 				private fb: FormBuilder) {
@@ -63,10 +58,6 @@ export class QuestionSourcesComponent implements OnInit, OnDestroy {
 	}
 
 	ngOnInit(): void {
-		this.questionsService.getAll({}).subscribe((response) => {
-			this.questions = response.body;
-		});
-
 		this.get();
 	}
 
@@ -74,19 +65,6 @@ export class QuestionSourcesComponent implements OnInit, OnDestroy {
 		if (this.onReloadSubscription) {
 			this.onReloadSubscription.unsubscribe();
 		}
-	}
-
-	onMagicClick(questionSource: QuestionSource): void {
-		this.questions.forEach(q => {
-			setTimeout(() => {
-				this.questionsService.patch(<any>{
-					id: q.id,
-					data: {
-						questionSourceId: questionSource.id
-					}
-				}).subscribe();
-			}, 200);
-		});
 	}
 
 	onEditClick(questionSource?: QuestionSource): void {
