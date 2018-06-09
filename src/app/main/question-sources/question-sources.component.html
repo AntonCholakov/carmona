@@ -1,12 +1,12 @@
 <ol class="breadcrumb">
-	<li class="breadcrumb-item active">Questions</li>
+	<li class="breadcrumb-item active">Question Sources</li>
 </ol>
 
 <div class="container-fluid">
 
 	<div class="row">
 		<div class="col-md-12">
-			<h3>Questions</h3>
+			<h3>Question Sources</h3>
 		</div>
 	</div>
 
@@ -24,16 +24,15 @@
 			</form>
 		</div>
 		<div *ngIf="manage" class="col-md-10 text-right">
-			<button class="btn btn-outline-primary" (click)="onEditClick()">Create Question</button>
+			<button class="btn btn-outline-primary" (click)="onEditClick()">Create Question Source</button>
 		</div>
 	</div>
 
 	<hr>
 
 	<ngx-datatable
-		[rows]="questions"
+		[rows]="questionSources"
 		[columnMode]="'force'"
-		[rowClass]="getRowClass"
 		[headerHeight]="50"
 		[footerHeight]="50"
 		[rowHeight]="'auto'"
@@ -45,34 +44,18 @@
 		(page)='setPage($event)'
 		(sort)="onSort($event)">
 
-		<ngx-datatable-column name="Text">
+		<ngx-datatable-column name="Name">
 			<ng-template let-row="row" ngx-datatable-cell-template>
-				<span>{{row.plainText}}</span>
+				<span>{{row.name}}</span>
 			</ng-template>
 		</ngx-datatable-column>
 
-		<ngx-datatable-column name="Category"
+		<ngx-datatable-column name="Description"
 							  [sortable]="false"
 							  [headerClass]="'text-center'"
 							  [cellClass]="'text-center'">
 			<ng-template let-row="row" ngx-datatable-cell-template>
-				<span>{{row.category.name}}</span>
-			</ng-template>
-		</ngx-datatable-column>
-
-		<ngx-datatable-column name="Source"
-							  [headerClass]="'text-center'"
-							  [cellClass]="'text-center'">
-			<ng-template let-row="row" ngx-datatable-cell-template>
-				<span>{{row.questionSourceId}}</span>
-			</ng-template>
-		</ngx-datatable-column>
-
-		<ngx-datatable-column name="Type"
-							  [headerClass]="'text-center'"
-							  [cellClass]="'text-center'">
-			<ng-template let-row="row" ngx-datatable-cell-template>
-				<span>{{row.questionType}}</span>
+				<span>{{row.description}}</span>
 			</ng-template>
 		</ngx-datatable-column>
 
@@ -96,9 +79,9 @@
 					<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
 				</button>
 				<button type="button"
-						(click)="onMarkAnswersClick(row)"
-						class="btn btn-sm btn-outline-primary">
-					<i class="fa fa-check" aria-hidden="true"></i>
+						(click)="onMagicClick(row)"
+						class="btn btn-sm btn-outline-success">
+					Do Magic
 				</button>
 				<button type="button"
 						(click)="onDeleteClick(row)"

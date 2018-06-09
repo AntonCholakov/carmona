@@ -1,0 +1,39 @@
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()" novalidate>
+	<div class="modal-header">
+		<h4 class="modal-title pull-left">{{questionSource.id ? 'Edit' : 'Add'}} Question Source</h4>
+		<button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	<div class="modal-body">
+
+		<div class="form-group">
+			<label for="name" class="label">Name <span class="text-warning">*</span></label>
+			<input type="text"
+				   id="name"
+				   class="form-control"
+				   formControlName="name">
+			<app-field-error-message [control]="formGroup.controls['name']"></app-field-error-message>
+		</div>
+
+		<div class="form-group">
+			<label for="description" class="label">Description</label>
+			<textarea id="description"
+					  class="form-control"
+					  rows="2"
+					  formControlName="description"></textarea>
+			<app-field-error-message [control]="formGroup.controls['description']"></app-field-error-message>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<small><strong class="text-warning"> * </strong> Required fields</small>
+			</div>
+		</div>
+
+	</div>
+	<div class="modal-footer">
+		<button type="submit" class="btn btn-primary" [disabled]="!formGroup.valid">Save</button>
+		<button type="button" class="btn btn-default" (click)="bsModalRef.hide()">Close</button>
+	</div>
+</form>

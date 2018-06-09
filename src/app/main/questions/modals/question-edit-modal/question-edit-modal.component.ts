@@ -4,6 +4,8 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap';
 import { FormUtil } from '../../../../core/services/form.util';
 import { Category } from '../../../categories/models/category.model';
 import { CategoriesService } from '../../../categories/services/categories.service';
+import { QuestionSource } from '../../../question-sources/models/question-source.model';
+import { QuestionSourcesService } from '../../../question-sources/services/question-sources.service';
 import { Answer } from '../../models/answer.model';
 import { Question } from '../../models/question.model';
 import { QuestionsService } from '../../services/questions.service';
@@ -20,6 +22,7 @@ export class QuestionEditModalComponent implements OnInit {
 	question: Question;
 
 	categories: Category[];
+	questionSources: QuestionSource[];
 
 	formGroup: FormGroup;
 
@@ -27,6 +30,7 @@ export class QuestionEditModalComponent implements OnInit {
 
 	constructor(private questionsService: QuestionsService,
 				private categoriesService: CategoriesService,
+				private questionSourcesService: QuestionSourcesService,
 				private formUtil: FormUtil,
 				private bsModalService: BsModalService,
 				public bsModalRef: BsModalRef,
@@ -38,6 +42,9 @@ export class QuestionEditModalComponent implements OnInit {
 	ngOnInit(): void {
 		this.categoriesService.getAll({}).subscribe((response) => {
 			this.categories = response.body;
+		});
+		this.questionSourcesService.getAll({}).subscribe((response) => {
+			this.questionSources = response.body;
 		});
 
 		this.buildForm(this.question);
@@ -89,6 +96,7 @@ export class QuestionEditModalComponent implements OnInit {
 			text: [question.text, Validators.required],
 			plainText: [question.plainText, Validators.required],
 			categoryId: [question.categoryId, Validators.required],
+			questionSourceId: [question.questionSourceId, Validators.required],
 			questionType: [question.questionType, Validators.required],
 			correctAnswerId: question.correctAnswerId,
 			answers: this.getAnswersFormArray(question)

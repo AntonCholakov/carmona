@@ -16,6 +16,9 @@ import { MainHeaderComponent } from './layout/main-header/main-header.component'
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { MainSidebarComponent } from './layout/main-sidebar/main-sidebar.component';
 import { MainRoutingModule } from './main-routing.module';
+import { QuestionSourceEditModalComponent } from './question-sources/modals/question-source-edit-modal/question-source-edit-modal.component';
+import { QuestionSourcesComponent } from './question-sources/question-sources.component';
+import { QuestionSourcesService } from './question-sources/services/question-sources.service';
 import { QuestionsListComponent } from './questions-list/questions-list.component';
 import { QuestionCorrectAnswersModalComponent } from './questions/modals/question-correct-answers-modal/question-correct-answers-modal.component';
 import { QuestionEditModalComponent } from './questions/modals/question-edit-modal/question-edit-modal.component';
@@ -42,6 +45,8 @@ import { QuestionsService } from './questions/services/questions.service';
 		MainSidebarComponent,
 		CategoriesComponent,
 		CategoryEditModalComponent,
+		QuestionSourcesComponent,
+		QuestionSourceEditModalComponent,
 		QuestionsComponent,
 		QuestionEditModalComponent,
 		QuestionCorrectAnswersModalComponent,
@@ -49,11 +54,13 @@ import { QuestionsService } from './questions/services/questions.service';
 	],
 	entryComponents: [
 		CategoryEditModalComponent,
+		QuestionSourceEditModalComponent,
 		QuestionEditModalComponent,
 		QuestionCorrectAnswersModalComponent
 	],
 	providers: [
 		CategoriesService,
+		QuestionSourcesService,
 		QuestionsService
 	]
 })

@@ -42,6 +42,13 @@
       "created": "2018-06-08T18:55:24.746Z"
     }
   ],
+  "question-sources": [
+    {
+      "name": "Наши измислени",
+      "id": 1,
+      "created": "2018-06-09T19:03:02.034Z"
+    }
+  ],
   "questions": [
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">В кой ред са изброени типове данни, характерни за C#:</span></p>",
@@ -69,7 +76,8 @@
       "id": 1,
       "correctAnswerId": 4,
       "created": "2018-06-03T18:57:50.789Z",
-      "lastUpdated": "2018-06-03T18:57:53.568Z"
+      "lastUpdated": "2018-06-09T19:03:04.699Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Променливите се характеризират с:</span></p>",
@@ -97,7 +105,8 @@
       "id": 2,
       "correctAnswerId": 3,
       "created": "2018-06-03T18:58:17.665Z",
-      "lastUpdated": "2018-06-03T18:58:21.729Z"
+      "lastUpdated": "2018-06-09T19:03:04.701Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Променливите се съхраняват в:</p>",
@@ -125,7 +134,8 @@
       "id": 3,
       "correctAnswerId": 3,
       "created": "2018-06-03T18:58:50.692Z",
-      "lastUpdated": "2018-06-03T18:58:53.671Z"
+      "lastUpdated": "2018-06-09T19:03:04.704Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете вярното твърдение за статичните структури от данни:</span></p>",
@@ -153,7 +163,8 @@
       "id": 4,
       "correctAnswerId": 2,
       "created": "2018-06-03T18:59:23.624Z",
-      "lastUpdated": "2018-06-03T18:59:27.701Z"
+      "lastUpdated": "2018-06-09T19:03:04.707Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>При коя от динамичните структури от данни достъпът до елементите се извършва посредством подхода \"последният добавен елемент излиза първи\":</p>",
@@ -177,7 +188,8 @@
       "id": 5,
       "correctAnswerId": 2,
       "created": "2018-06-03T18:59:59.066Z",
-      "lastUpdated": "2018-06-03T19:00:03.989Z"
+      "lastUpdated": "2018-06-09T19:03:04.709Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Начинът на достъп до данните на структурата от данни лист се извършва:</span></p>",
@@ -205,7 +217,8 @@
       "id": 6,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:00:33.060Z",
-      "lastUpdated": "2018-06-03T19:00:35.907Z"
+      "lastUpdated": "2018-06-09T19:03:04.711Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете вярното твърдение за речниците:</span></p>",
@@ -233,7 +246,8 @@
       "id": 7,
       "correctAnswerId": 2,
       "created": "2018-06-03T19:01:02.025Z",
-      "lastUpdated": "2018-06-03T19:01:05.247Z"
+      "lastUpdated": "2018-06-09T19:03:04.712Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Колко типа преобразуване на данни има:</span></p>",
@@ -261,7 +275,8 @@
       "id": 8,
       "correctAnswerId": 2,
       "created": "2018-06-03T19:01:24.910Z",
-      "lastUpdated": "2018-06-03T19:01:26.868Z"
+      "lastUpdated": "2018-06-09T19:03:04.717Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете вярното твърдение:</span></p>",
@@ -289,7 +304,8 @@
       "id": 9,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:02:26.255Z",
-      "lastUpdated": "2018-06-03T19:02:31.249Z"
+      "lastUpdated": "2018-06-09T19:03:04.721Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кой от посочените цикли се характеризира като цикъл със следусловие:</p>",
@@ -317,7 +333,8 @@
       "id": 10,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:02:58.498Z",
-      "lastUpdated": "2018-06-03T19:03:01.457Z"
+      "lastUpdated": "2018-06-09T19:03:04.724Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Посочете невярното твърдение:</p>",
@@ -345,7 +362,8 @@
       "id": 11,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:03:36.594Z",
-      "lastUpdated": "2018-06-03T19:03:39.860Z"
+      "lastUpdated": "2018-06-09T19:03:04.727Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Посочете невярното твърдение:</p>",
@@ -373,7 +391,8 @@
       "id": 12,
       "correctAnswerId": 4,
       "created": "2018-06-03T19:04:06.278Z",
-      "lastUpdated": "2018-06-03T19:04:10.037Z"
+      "lastUpdated": "2018-06-09T19:03:04.730Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Коя от следните особености е вярна за методите:</p>",
@@ -401,7 +420,8 @@
       "id": 13,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:04:38.341Z",
-      "lastUpdated": "2018-06-03T19:04:42.030Z"
+      "lastUpdated": "2018-06-09T19:03:04.733Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво представлява понятието “претоварване на методи” (method overloading)</p>",
@@ -429,7 +449,8 @@
       "id": 14,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:05:19.357Z",
-      "lastUpdated": "2018-06-03T19:05:23.373Z"
+      "lastUpdated": "2018-06-09T19:03:04.738Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какъв ще е резултатът от изпълнението на следния програмен код:</p><pre class=\"ql-syntax\" spellcheck=\"false\">'a' &gt; 'B'\n</pre>",
@@ -457,7 +478,8 @@
       "id": 15,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:05:45.982Z",
-      "lastUpdated": "2018-06-03T19:07:53.220Z"
+      "lastUpdated": "2018-06-09T19:03:04.740Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какъв ще е резултатът от изпълнението на следния програмен код:</p><pre class=\"ql-syntax\" spellcheck=\"false\">'A' &gt; 'B'\n</pre>",
@@ -485,7 +507,8 @@
       "id": 16,
       "correctAnswerId": 4,
       "created": "2018-06-03T19:06:27.527Z",
-      "lastUpdated": "2018-06-03T19:07:42.052Z"
+      "lastUpdated": "2018-06-09T19:03:04.742Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какъв ще е резултатът от изпълнението на следният програмен код:</p><pre class=\"ql-syntax\" spellcheck=\"false\">string name = \"Plovdiv\";\nstring newName = name.Substring(4);\nConsole.WriteLine(newName);\n</pre>",
@@ -513,7 +536,8 @@
       "id": 17,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:09:48.195Z",
-      "lastUpdated": "2018-06-03T19:09:51.208Z"
+      "lastUpdated": "2018-06-09T19:03:04.744Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Какъв ще е резултатът от изпълнението на следният програмен код:</span></p><pre class=\"ql-syntax\" spellcheck=\"false\">List&lt;int&gt; numbers = new List&lt;int&gt; {1, 3, 5, 7, 9};\nnumbers.Insert(2, 10);\nforeach (int n in numbers)\n{\n  Console.Write(n + \" \");\n} \n</pre>",
@@ -541,7 +565,8 @@
       "id": 18,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:42:28.629Z",
-      "lastUpdated": "2018-06-03T19:46:41.522Z"
+      "lastUpdated": "2018-06-09T19:03:04.747Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какъв ще е резултатът от изпълнението на следният програмен код:</p><pre class=\"ql-syntax\" spellcheck=\"false\">List&lt;int&gt; numbers = new List&lt;int&gt; {1, 3, 5, 7, 9};\nnumbers.RemoveAt(3);\n\nforeach (int n in numbers)\n{\n  Console.Write(n + \" \");\n}\n</pre>",
@@ -569,7 +594,8 @@
       "id": 19,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:43:43.067Z",
-      "lastUpdated": "2018-06-03T19:46:31.015Z"
+      "lastUpdated": "2018-06-09T19:03:04.749Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какъв ще е резултатът от изпълнението на следният програмен код:</p><pre class=\"ql-syntax\" spellcheck=\"false\">List&lt;int&gt; numbers = new List&lt;int&gt; {1, 3, 5, 7, 9};\nnumbers.Add(10);\nnumbers.Remove(5);\n\nforeach (int n in numbers)\n{\n  Console.Write(n + \" \")'\n}\n</pre>",
@@ -597,7 +623,8 @@
       "id": 20,
       "correctAnswerId": 2,
       "created": "2018-06-03T19:46:15.784Z",
-      "lastUpdated": "2018-06-03T19:51:14.547Z"
+      "lastUpdated": "2018-06-09T19:03:04.750Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кой е модификаторът за достъп, който е зададен по подразбиране на класовете в C#, ако изрично не е посочен друг</p>",
@@ -625,7 +652,8 @@
       "id": 21,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:53:25.626Z",
-      "lastUpdated": "2018-06-03T19:54:27.031Z"
+      "lastUpdated": "2018-06-09T19:03:04.753Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете невярното твърдение:</span></p>",
@@ -653,7 +681,8 @@
       "id": 22,
       "correctAnswerId": 2,
       "created": "2018-06-03T19:54:11.853Z",
-      "lastUpdated": "2018-06-03T19:54:14.872Z"
+      "lastUpdated": "2018-06-09T19:03:04.755Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете невярното твърдение:</span></p>",
@@ -681,7 +710,8 @@
       "id": 23,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:54:59.492Z",
-      "lastUpdated": "2018-06-03T19:55:02.273Z"
+      "lastUpdated": "2018-06-09T19:03:04.758Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое от твърденията за ООП принципите е вярно:</p>",
@@ -709,7 +739,8 @@
       "id": 24,
       "correctAnswerId": 4,
       "created": "2018-06-03T19:55:46.009Z",
-      "lastUpdated": "2018-06-03T19:55:48.810Z"
+      "lastUpdated": "2018-06-09T19:03:04.761Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Кое от твърденията за абстрактния клас не е вярно:</span></p>",
@@ -737,7 +768,8 @@
       "id": 25,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:56:17.030Z",
-      "lastUpdated": "2018-06-03T19:56:20.969Z"
+      "lastUpdated": "2018-06-09T19:03:04.763Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Посочете невярното твърдение за обработката на изключения:</p>",
@@ -765,7 +797,8 @@
       "id": 26,
       "correctAnswerId": 4,
       "created": "2018-06-03T20:00:27.421Z",
-      "lastUpdated": "2018-06-03T20:00:29.964Z"
+      "lastUpdated": "2018-06-09T19:03:04.766Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете вярното твърдение</span></p>",
@@ -793,7 +826,8 @@
       "id": 27,
       "correctAnswerId": 4,
       "created": "2018-06-05T18:52:55.567Z",
-      "lastUpdated": "2018-06-05T18:52:58.742Z"
+      "lastUpdated": "2018-06-09T19:03:04.768Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете вярното твърдение. Базата от данни е</span></p>",
@@ -821,7 +855,8 @@
       "id": 28,
       "correctAnswerId": 1,
       "created": "2018-06-05T19:01:23.982Z",
-      "lastUpdated": "2018-06-05T19:01:44.361Z"
+      "lastUpdated": "2018-06-09T19:03:04.771Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">В зависимост от начина на работа и достъп до данните, базите от данни се разделят на</span></p>",
@@ -849,7 +884,8 @@
       "id": 29,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:03:39.836Z",
-      "lastUpdated": "2018-06-05T19:03:42.882Z"
+      "lastUpdated": "2018-06-09T19:03:04.773Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Многопотребитеските бази от данни представляват</span></p>",
@@ -873,7 +909,8 @@
       "id": 30,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:06:15.238Z",
-      "lastUpdated": "2018-06-05T19:06:24.211Z"
+      "lastUpdated": "2018-06-09T19:03:04.775Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">По своята същност оперативните данни представляват</span></p>",
@@ -901,7 +938,8 @@
       "id": 31,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:08:23.054Z",
-      "lastUpdated": "2018-06-05T19:08:28.830Z"
+      "lastUpdated": "2018-06-09T19:03:04.778Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Кое е вярно? Външното ниво на архитектурата на базата от данни</span></p>",
@@ -929,7 +967,8 @@
       "id": 32,
       "correctAnswerId": 4,
       "created": "2018-06-05T19:09:37.094Z",
-      "lastUpdated": "2018-06-05T19:09:39.647Z"
+      "lastUpdated": "2018-06-09T19:03:04.780Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете невярното твърдение. Концептуалното ниво на базата от данни</span></p>",
@@ -957,7 +996,8 @@
       "id": 33,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:20:06.406Z",
-      "lastUpdated": "2018-06-05T19:20:11.785Z"
+      "lastUpdated": "2018-06-09T19:03:04.782Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Посочете невярното твърдение. Вътрешното ниво на базата от данни</span></p>",
@@ -985,7 +1025,8 @@
       "id": 34,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:21:26.954Z",
-      "lastUpdated": "2018-06-05T19:21:30.944Z"
+      "lastUpdated": "2018-06-09T19:03:04.783Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Кое от свойствата не се отнася за релациите</span></p>",
@@ -1013,7 +1054,8 @@
       "id": 35,
       "correctAnswerId": 4,
       "created": "2018-06-05T19:23:53.445Z",
-      "lastUpdated": "2018-06-05T19:23:55.945Z"
+      "lastUpdated": "2018-06-09T19:03:04.786Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Първичен ключ е</p>",
@@ -1037,7 +1079,8 @@
       "id": 36,
       "correctAnswerId": 1,
       "created": "2018-06-05T19:30:48.896Z",
-      "lastUpdated": "2018-06-05T19:30:52.538Z"
+      "lastUpdated": "2018-06-09T19:03:04.788Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кой от изброените ключове не може да приема нулеви стойности</p>",
@@ -1065,7 +1108,8 @@
       "id": 37,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:33:22.196Z",
-      "lastUpdated": "2018-06-05T19:33:25.420Z"
+      "lastUpdated": "2018-06-09T19:03:04.791Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое от свойствата не се отнася на външния ключ на една релация</p>",
@@ -1093,7 +1137,8 @@
       "id": 38,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:38:28.384Z",
-      "lastUpdated": "2018-06-05T19:39:06.592Z"
+      "lastUpdated": "2018-06-09T19:03:04.795Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Възможно ли е алтернативен ключ да бъде зададен като първичен ключ</p>",
@@ -1117,7 +1162,8 @@
       "id": 39,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:40:49.070Z",
-      "lastUpdated": "2018-06-05T19:41:00.061Z"
+      "lastUpdated": "2018-06-09T19:03:04.798Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Основните подходи за осигуряване на референциална цялостност на базата от данни са</p>",
@@ -1145,7 +1191,8 @@
       "id": 40,
       "correctAnswerId": 4,
       "created": "2018-06-05T19:43:09.197Z",
-      "lastUpdated": "2018-06-05T19:43:12.516Z"
+      "lastUpdated": "2018-06-09T19:03:04.800Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Подходът <strong><em>restricted </em></strong>за осигуряване на референциална цялостност на базата от данни представлява</p>",
@@ -1173,7 +1220,8 @@
       "id": 41,
       "correctAnswerId": 1,
       "created": "2018-06-05T19:49:54.711Z",
-      "lastUpdated": "2018-06-05T19:54:38.894Z"
+      "lastUpdated": "2018-06-09T19:03:04.803Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Подходът <strong><em>cascade </em></strong>за осигуряване на референциална цялостност на базата от данни представлява</p>",
@@ -1201,7 +1249,8 @@
       "id": 42,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:50:47.555Z",
-      "lastUpdated": "2018-06-05T19:54:55.501Z"
+      "lastUpdated": "2018-06-09T19:03:04.806Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Подходът <strong><em>nullifies </em></strong>за осигуряване на референциална цялостност на базата от данни представлява</p>",
@@ -1229,7 +1278,8 @@
       "id": 43,
       "correctAnswerId": 1,
       "created": "2018-06-05T19:51:59.736Z",
-      "lastUpdated": "2018-06-05T19:53:13.190Z"
+      "lastUpdated": "2018-06-09T19:03:04.808Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>За какво се използва <em>DDL (Data Definition Language)</em></p>",
@@ -1253,7 +1303,8 @@
       "id": 44,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:57:36.753Z",
-      "lastUpdated": "2018-06-05T19:57:40.577Z"
+      "lastUpdated": "2018-06-09T19:03:04.811Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>За какво се използва <em>DML (Data Manipulation Language)</em></p>",
@@ -1277,7 +1328,8 @@
       "id": 45,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:58:23.990Z",
-      "lastUpdated": "2018-06-05T19:59:05.933Z"
+      "lastUpdated": "2018-06-09T19:03:04.814Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>За какво се използва <em>DCL (Data Control Language)</em></p>",
@@ -1301,7 +1353,8 @@
       "id": 46,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:00:35.014Z",
-      "lastUpdated": "2018-06-05T20:00:40.668Z"
+      "lastUpdated": "2018-06-09T19:03:04.816Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред са посочени само оператори, които се използват от <em>DCL (Data Control Language)</em></p>",
@@ -1385,7 +1438,8 @@
       "id": 49,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:06:35.278Z",
-      "lastUpdated": "2018-06-05T20:06:39.913Z"
+      "lastUpdated": "2018-06-09T19:03:04.822Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Нормализация е</p>",
@@ -1409,7 +1463,8 @@
       "id": 50,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:10:18.225Z",
-      "lastUpdated": "2018-06-05T20:10:22.579Z"
+      "lastUpdated": "2018-06-09T19:03:04.826Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Посочете невярното твърдение за процесът <em>нормализация</em></p>",
@@ -1437,7 +1492,8 @@
       "id": 51,
       "correctAnswerId": 1,
       "created": "2018-06-05T20:17:16.587Z",
-      "lastUpdated": "2018-06-05T20:17:22.584Z"
+      "lastUpdated": "2018-06-09T19:03:04.828Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><em>Нормална форма </em>е</p>",
@@ -1465,7 +1521,8 @@
       "id": 52,
       "correctAnswerId": 4,
       "created": "2018-06-05T20:20:41.583Z",
-      "lastUpdated": "2018-06-05T20:21:02.004Z"
+      "lastUpdated": "2018-06-09T19:03:04.829Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В терминологията на базите от данни <strong><em>транзакцията </em></strong>представлява</p>",
@@ -1493,7 +1550,8 @@
       "id": 53,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:24:30.540Z",
-      "lastUpdated": "2018-06-05T20:24:34.738Z"
+      "lastUpdated": "2018-06-09T19:03:04.832Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред са изброени всички свойства, които една транзакция притежава</p>",
@@ -1521,7 +1579,8 @@
       "id": 54,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:30:26.949Z",
-      "lastUpdated": "2018-06-05T20:30:31.476Z"
+      "lastUpdated": "2018-06-09T19:03:04.833Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Понятието <strong><em>конкурентност </em></strong>представлява</p>",
@@ -1545,7 +1604,8 @@
       "id": 55,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:36:21.758Z",
-      "lastUpdated": "2018-06-05T20:36:25.815Z"
+      "lastUpdated": "2018-06-09T19:03:04.835Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Дневникът на транзакциите служи за</p>",
@@ -1573,7 +1633,8 @@
       "id": 56,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:39:08.381Z",
-      "lastUpdated": "2018-06-05T20:39:12.841Z"
+      "lastUpdated": "2018-06-09T19:03:04.836Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Свойството <strong><em>атомарност </em></strong>на транзакция представлява</p>",
@@ -1601,7 +1662,8 @@
       "id": 57,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:44:36.555Z",
-      "lastUpdated": "2018-06-05T20:44:40.295Z"
+      "lastUpdated": "2018-06-09T19:03:04.837Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Свойството <strong><em>консистентност </em></strong>на транзакция представлява</p>",
@@ -1629,7 +1691,8 @@
       "id": 58,
       "correctAnswerId": 4,
       "created": "2018-06-05T20:45:44.854Z",
-      "lastUpdated": "2018-06-05T20:45:49.081Z"
+      "lastUpdated": "2018-06-09T19:03:04.840Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Свойството <strong><em>изолираност </em></strong>на транзакция представлява</p>",
@@ -1657,7 +1720,8 @@
       "id": 59,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:46:59.061Z",
-      "lastUpdated": "2018-06-05T20:47:02.921Z"
+      "lastUpdated": "2018-06-09T19:03:04.841Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Свойството <strong><em>трайност </em></strong>на транзакция представлява</p>",
@@ -1685,7 +1749,8 @@
       "id": 60,
       "correctAnswerId": 1,
       "created": "2018-06-05T20:48:02.275Z",
-      "lastUpdated": "2018-06-05T20:48:09.431Z"
+      "lastUpdated": "2018-06-09T19:03:04.842Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво представлява свойството <strong><em>релационна затвореност</em></strong> на базата данни</p>",
@@ -1713,7 +1778,8 @@
       "id": 61,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:50:38.176Z",
-      "lastUpdated": "2018-06-05T20:50:44.149Z"
+      "lastUpdated": "2018-06-09T19:03:04.844Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво включва уеб типографията</p>",
@@ -1737,7 +1803,8 @@
       "id": 62,
       "correctAnswerId": 1,
       "created": "2018-06-07T17:40:10.189Z",
-      "lastUpdated": "2018-06-07T17:40:16.288Z"
+      "lastUpdated": "2018-06-09T19:03:04.847Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>При internal начинът за свързване на html и css</p>",
@@ -1761,7 +1828,8 @@
       "id": 63,
       "correctAnswerId": 1,
       "created": "2018-06-07T17:45:04.175Z",
-      "lastUpdated": "2018-06-07T17:45:08.125Z"
+      "lastUpdated": "2018-06-09T19:03:04.850Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>При external начинът за свързване на html и css</p>",
@@ -1785,7 +1853,8 @@
       "id": 64,
       "correctAnswerId": 2,
       "created": "2018-06-07T17:45:49.827Z",
-      "lastUpdated": "2018-06-07T17:45:53.817Z"
+      "lastUpdated": "2018-06-09T19:03:04.851Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>При inline начинът за свързване на html и css</p>",
@@ -1809,7 +1878,8 @@
       "id": 65,
       "correctAnswerId": 3,
       "created": "2018-06-07T17:46:24.954Z",
-      "lastUpdated": "2018-06-07T17:46:28.047Z"
+      "lastUpdated": "2018-06-09T19:03:04.853Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред е посочена последователността (във възходящ ред), в която се прилагат стиловете в една html страница</p>",
@@ -1837,7 +1907,8 @@
       "id": 66,
       "correctAnswerId": 2,
       "created": "2018-06-07T17:49:04.424Z",
-      "lastUpdated": "2018-06-07T17:49:07.439Z"
+      "lastUpdated": "2018-06-09T19:03:04.854Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво е margin</p>",
@@ -1861,7 +1932,8 @@
       "id": 67,
       "correctAnswerId": 1,
       "created": "2018-06-07T17:52:43.424Z",
-      "lastUpdated": "2018-06-07T17:52:46.657Z"
+      "lastUpdated": "2018-06-09T19:03:04.856Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво е padding</p>",
@@ -1885,7 +1957,8 @@
       "id": 68,
       "correctAnswerId": 2,
       "created": "2018-06-07T17:53:46.926Z",
-      "lastUpdated": "2018-06-07T17:53:49.247Z"
+      "lastUpdated": "2018-06-09T19:03:04.858Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Съвкупността от margin, border, content и padding формират</p>",
@@ -1909,7 +1982,8 @@
       "id": 69,
       "correctAnswerId": 2,
       "created": "2018-06-07T17:58:59.995Z",
-      "lastUpdated": "2018-06-07T17:59:02.879Z"
+      "lastUpdated": "2018-06-09T19:03:04.859Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Посочете невярното твърдение за позиционирането на html елементите</p>",
@@ -1937,7 +2011,8 @@
       "id": 70,
       "correctAnswerId": 3,
       "created": "2018-06-07T18:05:16.972Z",
-      "lastUpdated": "2018-06-07T18:05:27.499Z"
+      "lastUpdated": "2018-06-09T19:03:04.860Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>За какво се използва z-index</p>",
@@ -1965,7 +2040,8 @@
       "id": 71,
       "correctAnswerId": 1,
       "created": "2018-06-07T18:43:56.321Z",
-      "lastUpdated": "2018-06-07T18:43:59.173Z"
+      "lastUpdated": "2018-06-09T19:03:04.863Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Посочете вярното твърдение</p>",
@@ -1993,7 +2069,8 @@
       "id": 72,
       "correctAnswerId": 4,
       "created": "2018-06-07T18:48:50.549Z",
-      "lastUpdated": "2018-06-07T18:48:53.337Z"
+      "lastUpdated": "2018-06-09T19:03:04.864Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред се съдържат само блокови html елементи</p>",
@@ -2021,7 +2098,8 @@
       "id": 73,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:00:19.025Z",
-      "lastUpdated": "2018-06-07T19:00:23.867Z"
+      "lastUpdated": "2018-06-09T19:03:04.865Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред се съдържат само специфични за html 5 тагове</p>",
@@ -2049,7 +2127,8 @@
       "id": 74,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:02:28.561Z",
-      "lastUpdated": "2018-06-07T19:02:31.346Z"
+      "lastUpdated": "2018-06-09T19:03:04.867Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Посочете невярното твърдение за java script</p>",
@@ -2077,7 +2156,8 @@
       "id": 75,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:06:23.603Z",
-      "lastUpdated": "2018-06-07T19:06:28.432Z"
+      "lastUpdated": "2018-06-09T19:03:04.868Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво представлява скриптът</p>",
@@ -2105,7 +2185,8 @@
       "id": 76,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:09:17.570Z",
-      "lastUpdated": "2018-06-07T19:09:24.000Z"
+      "lastUpdated": "2018-06-09T19:03:04.870Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво представлява ajax</p>",
@@ -2133,7 +2214,8 @@
       "id": 77,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:11:10.496Z",
-      "lastUpdated": "2018-06-07T19:11:13.510Z"
+      "lastUpdated": "2018-06-09T19:03:04.872Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое не се отнася за променливите в java script\t</p>",
@@ -2161,7 +2243,8 @@
       "id": 78,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:14:37.660Z",
-      "lastUpdated": "2018-06-07T19:14:43.615Z"
+      "lastUpdated": "2018-06-09T19:03:04.873Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кога променливата в java script има стойност undefined</p>",
@@ -2189,7 +2272,8 @@
       "id": 79,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:18:25.182Z",
-      "lastUpdated": "2018-06-07T19:18:47.497Z"
+      "lastUpdated": "2018-06-09T19:03:04.876Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кога променливата в java script има стойност null</p>",
@@ -2217,7 +2301,8 @@
       "id": 80,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:21:43.564Z",
-      "lastUpdated": "2018-06-07T19:21:49.799Z"
+      "lastUpdated": "2018-06-09T19:03:04.877Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое не се отнася за функциите в java script</p>",
@@ -2245,7 +2330,8 @@
       "id": 81,
       "correctAnswerId": 4,
       "created": "2018-06-07T19:26:51.711Z",
-      "lastUpdated": "2018-06-07T19:26:55.504Z"
+      "lastUpdated": "2018-06-09T19:03:04.879Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое не се отнася за DOM (Document Object Model)</p>",
@@ -2273,7 +2359,8 @@
       "id": 82,
       "correctAnswerId": 4,
       "created": "2018-06-07T19:30:02.445Z",
-      "lastUpdated": "2018-06-07T19:30:06.764Z"
+      "lastUpdated": "2018-06-09T19:03:04.881Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое не се отнася за java script и DOM</p>",
@@ -2297,7 +2384,8 @@
       "id": 83,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:38:56.770Z",
-      "lastUpdated": "2018-06-07T19:38:59.972Z"
+      "lastUpdated": "2018-06-09T19:03:04.882Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Определението за <em>шрифт </em>е</p>",
@@ -2325,7 +2413,8 @@
       "id": 84,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:43:31.750Z",
-      "lastUpdated": "2018-06-07T19:43:36.748Z"
+      "lastUpdated": "2018-06-09T19:03:04.885Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Определението за <em>шрифтово семейство</em> е</p>",
@@ -2353,7 +2442,8 @@
       "id": 85,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:45:02.407Z",
-      "lastUpdated": "2018-06-07T19:45:12.926Z"
+      "lastUpdated": "2018-06-09T19:03:04.886Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Определението за <em>шрифтова гарнитура</em> е</p>",
@@ -2381,7 +2471,8 @@
       "id": 86,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:46:49.609Z",
-      "lastUpdated": "2018-06-07T19:47:01.714Z"
+      "lastUpdated": "2018-06-09T19:03:04.888Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво представляват серифните шрифтове</p>",
@@ -2405,7 +2496,8 @@
       "id": 87,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:48:23.796Z",
-      "lastUpdated": "2018-06-07T19:48:28.049Z"
+      "lastUpdated": "2018-06-09T19:03:04.888Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво представляват безсерифните шрифтове</p>",
@@ -2429,7 +2521,8 @@
       "id": 88,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:49:12.629Z",
-      "lastUpdated": "2018-06-07T19:49:15.731Z"
+      "lastUpdated": "2018-06-09T19:03:04.891Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p><span class=\"ql-cursor\">﻿</span>Какво представляват декоративните шрифтове</p>",
@@ -2453,7 +2546,8 @@
       "id": 89,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:49:55.969Z",
-      "lastUpdated": "2018-06-07T19:49:58.410Z"
+      "lastUpdated": "2018-06-09T19:03:04.892Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кои шрифтове не са подходящи за текстове с малка височина на буквата или негативни шрифтове, защото се четат трудно</p>",
@@ -2481,7 +2575,8 @@
       "id": 90,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:51:22.398Z",
-      "lastUpdated": "2018-06-07T19:51:26.664Z"
+      "lastUpdated": "2018-06-09T19:03:04.893Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кои шрифтове се използват се за реклами или декоративни цели</p>",
@@ -2509,7 +2604,8 @@
       "id": 91,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:53:10.881Z",
-      "lastUpdated": "2018-06-07T19:53:15.753Z"
+      "lastUpdated": "2018-06-09T19:03:04.895Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кои шрифтове не са подходящи за писане на основен текст</p>",
@@ -2537,7 +2633,8 @@
       "id": 92,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:54:11.667Z",
-      "lastUpdated": "2018-06-07T19:54:14.481Z"
+      "lastUpdated": "2018-06-09T19:03:04.897Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Шрифтът Times принадлежи към</p>",
@@ -2561,7 +2658,8 @@
       "id": 93,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:54:54.135Z",
-      "lastUpdated": "2018-06-07T19:56:52.358Z"
+      "lastUpdated": "2018-06-09T19:03:04.898Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Шрифтът Helvetica принадлежи към</p>",
@@ -2585,7 +2683,8 @@
       "id": 94,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:55:43.075Z",
-      "lastUpdated": "2018-06-07T19:55:45.281Z"
+      "lastUpdated": "2018-06-09T19:03:04.899Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Ръкописните шрифтове спадат към</p>",
@@ -2609,7 +2708,8 @@
       "id": 95,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:56:25.748Z",
-      "lastUpdated": "2018-06-07T19:56:28.205Z"
+      "lastUpdated": "2018-06-09T19:03:04.901Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Понятието <em>кегел </em>означава</p>",
@@ -2637,7 +2737,8 @@
       "id": 96,
       "correctAnswerId": 2,
       "created": "2018-06-07T20:16:16.057Z",
-      "lastUpdated": "2018-06-07T20:16:19.022Z"
+      "lastUpdated": "2018-06-09T19:03:04.903Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Понятието <em>лединг </em>означава</p>",
@@ -2665,7 +2766,8 @@
       "id": 97,
       "correctAnswerId": 3,
       "created": "2018-06-07T20:20:58.495Z",
-      "lastUpdated": "2018-06-07T20:21:01.700Z"
+      "lastUpdated": "2018-06-09T19:03:04.904Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Понятието <em>тракинг </em>означава</p>",
@@ -2693,7 +2795,8 @@
       "id": 98,
       "correctAnswerId": 3,
       "created": "2018-06-07T20:22:23.173Z",
-      "lastUpdated": "2018-06-07T20:22:25.802Z"
+      "lastUpdated": "2018-06-09T19:03:04.906Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Понятието <em>кърнинг </em>означава</p>",
@@ -2721,7 +2824,8 @@
       "id": 99,
       "correctAnswerId": 1,
       "created": "2018-06-07T20:26:47.289Z",
-      "lastUpdated": "2018-06-07T20:26:50.107Z"
+      "lastUpdated": "2018-06-09T19:03:04.908Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое не се отнася за растерната графика</p>",
@@ -2749,7 +2853,8 @@
       "id": 100,
       "correctAnswerId": 3,
       "created": "2018-06-07T20:35:42.140Z",
-      "lastUpdated": "2018-06-07T20:36:35.287Z"
+      "lastUpdated": "2018-06-09T19:03:04.910Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое се отнася за векторната графика</p>",
@@ -2777,7 +2882,8 @@
       "id": 101,
       "correctAnswerId": 4,
       "created": "2018-06-07T20:37:41.415Z",
-      "lastUpdated": "2018-06-07T20:37:44.107Z"
+      "lastUpdated": "2018-06-09T19:03:04.912Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое се отнася за фракталната графика</p>",
@@ -2805,7 +2911,8 @@
       "id": 102,
       "correctAnswerId": 4,
       "created": "2018-06-07T20:39:56.898Z",
-      "lastUpdated": "2018-06-07T20:40:02.971Z"
+      "lastUpdated": "2018-06-09T19:03:04.914Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кой файлов формат позволява съхранение на няколко растерни изображения в един файл, след което браузърите ги зареждат с определена честота, създавайки илюзия за движение</p>",
@@ -2833,7 +2940,8 @@
       "id": 103,
       "correctAnswerId": 1,
       "created": "2018-06-07T21:13:48.929Z",
-      "lastUpdated": "2018-06-07T21:13:51.854Z"
+      "lastUpdated": "2018-06-09T19:03:04.916Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое не се отнася за файловия формат png</p>",
@@ -2861,7 +2969,8 @@
       "id": 104,
       "correctAnswerId": 4,
       "created": "2018-06-07T21:18:21.476Z",
-      "lastUpdated": "2018-06-07T21:18:24.257Z"
+      "lastUpdated": "2018-06-09T19:03:04.918Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое не се отнася за файловия формат jpeg</p>",
@@ -2885,7 +2994,8 @@
       "id": 105,
       "correctAnswerId": 2,
       "created": "2018-06-07T21:20:38.691Z",
-      "lastUpdated": "2018-06-07T21:20:43.989Z"
+      "lastUpdated": "2018-06-09T19:03:04.920Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред се съдържат файлови формати за съхранение само на растерна графика</p>",
@@ -2913,7 +3023,8 @@
       "id": 106,
       "correctAnswerId": 1,
       "created": "2018-06-07T21:23:47.035Z",
-      "lastUpdated": "2018-06-07T21:23:50.075Z"
+      "lastUpdated": "2018-06-09T19:03:04.922Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое твърдение не се отнася за цветовия модел RGB</p>",
@@ -2941,7 +3052,8 @@
       "id": 107,
       "correctAnswerId": 4,
       "created": "2018-06-07T21:31:02.904Z",
-      "lastUpdated": "2018-06-07T21:31:09.114Z"
+      "lastUpdated": "2018-06-09T19:03:04.924Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое твърдение не се отнася за цветовия модел CMYK</p>",
@@ -2969,7 +3081,8 @@
       "id": 108,
       "correctAnswerId": 4,
       "created": "2018-06-07T21:33:51.181Z",
-      "lastUpdated": "2018-06-07T21:33:53.966Z"
+      "lastUpdated": "2018-06-09T19:03:04.926Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кой цветови модел се използва за печат</p>",
@@ -2997,7 +3110,8 @@
       "id": 109,
       "correctAnswerId": 2,
       "created": "2018-06-07T21:34:41.836Z",
-      "lastUpdated": "2018-06-07T21:34:44.026Z"
+      "lastUpdated": "2018-06-09T19:03:04.927Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кой цветови модел се използва при визуализация на изображението на екран</p>",
@@ -3025,7 +3139,8 @@
       "id": 110,
       "correctAnswerId": 1,
       "created": "2018-06-07T21:35:44.681Z",
-      "lastUpdated": "2018-06-07T21:35:46.798Z"
+      "lastUpdated": "2018-06-09T19:03:04.929Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво представляват <em>HSL (Hue-Saturation-Lightness)</em> и <em>HSV (Hue-Saturation-Value)</em></p>",
@@ -3049,7 +3164,8 @@
       "id": 111,
       "correctAnswerId": 1,
       "created": "2018-06-07T21:38:28.126Z",
-      "lastUpdated": "2018-06-07T21:38:31.556Z"
+      "lastUpdated": "2018-06-09T19:03:04.931Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>За кой цветови модел се отнася следната характеристика:</p><p><em>\"Най-интуитивен и лесен за разбиране. Неговите характеристики са цветови тон, наситеност, яркост. Цветовият модел е удобен при създаване на нови изображения, защото изображението лесно може лесно да се трансформира от единия цветови модел в другия, в зависимост от това дали то ще се визуализира на екран или хартия\"</em></p>",
@@ -3077,7 +3193,8 @@
       "id": 112,
       "correctAnswerId": 3,
       "created": "2018-06-07T21:42:54.465Z",
-      "lastUpdated": "2018-06-07T21:42:57.238Z"
+      "lastUpdated": "2018-06-09T19:03:04.932Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред се съдържат само цветови модели</p>",
@@ -3105,7 +3222,8 @@
       "id": 113,
       "correctAnswerId": 3,
       "created": "2018-06-07T21:44:21.601Z",
-      "lastUpdated": "2018-06-07T21:44:30.841Z"
+      "lastUpdated": "2018-06-09T19:03:04.934Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое от следните твърдения не е вярно</p>",
@@ -3133,7 +3251,8 @@
       "id": 114,
       "correctAnswerId": 4,
       "created": "2018-06-07T21:56:44.715Z",
-      "lastUpdated": "2018-06-07T21:57:01.910Z"
+      "lastUpdated": "2018-06-09T19:03:04.935Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Какво е асембли (assembly)</p>",
@@ -3157,7 +3276,8 @@
       "id": 115,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:00:22.906Z",
-      "lastUpdated": "2018-06-07T22:00:28.117Z"
+      "lastUpdated": "2018-06-09T19:03:04.937Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кой модификатор за достъп \"прави\" класовете, методите и полетата достъпни за използване във всички асемблита</p>",
@@ -3185,7 +3305,8 @@
       "id": 116,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:02:46.519Z",
-      "lastUpdated": "2018-06-07T22:02:49.539Z"
+      "lastUpdated": "2018-06-09T19:03:04.938Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред се съдържат само модификатори за наследяемост</p>",
@@ -3213,7 +3334,8 @@
       "id": 117,
       "correctAnswerId": 2,
       "created": "2018-06-07T22:05:42.104Z",
-      "lastUpdated": "2018-06-07T22:05:44.708Z"
+      "lastUpdated": "2018-06-09T19:03:04.940Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Модификаторът <em>static </em>се използва за</p>",
@@ -3241,7 +3363,8 @@
       "id": 118,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:08:14.655Z",
-      "lastUpdated": "2018-06-07T22:08:29.479Z"
+      "lastUpdated": "2018-06-09T19:03:04.942Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Модификаторът <em>partial </em>се използва за</p>",
@@ -3269,7 +3392,8 @@
       "id": 119,
       "correctAnswerId": 2,
       "created": "2018-06-07T22:09:25.728Z",
-      "lastUpdated": "2018-06-07T22:09:28.915Z"
+      "lastUpdated": "2018-06-09T19:03:04.944Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Модификаторът <em>abstract </em>се използва за</p>",
@@ -3297,7 +3421,8 @@
       "id": 120,
       "correctAnswerId": 3,
       "created": "2018-06-07T22:10:25.700Z",
-      "lastUpdated": "2018-06-07T22:10:30.151Z"
+      "lastUpdated": "2018-06-09T19:03:04.945Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Модификаторът <em>sealed </em>се използва за</p>",
@@ -3325,7 +3450,8 @@
       "id": 121,
       "correctAnswerId": 4,
       "created": "2018-06-07T22:11:14.061Z",
-      "lastUpdated": "2018-06-07T22:11:16.554Z"
+      "lastUpdated": "2018-06-09T19:03:04.947Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое твърдение се отнася за модификаторът за промяна на поле const</p>",
@@ -3353,7 +3479,8 @@
       "id": 122,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:21:45.009Z",
-      "lastUpdated": "2018-06-07T22:21:47.906Z"
+      "lastUpdated": "2018-06-09T19:03:04.950Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое твърдение се отнася за модификаторът за промяна на поле readonly</p>",
@@ -3381,7 +3508,8 @@
       "id": 123,
       "correctAnswerId": 2,
       "created": "2018-06-07T22:22:54.889Z",
-      "lastUpdated": "2018-06-07T22:22:59.871Z"
+      "lastUpdated": "2018-06-09T19:03:04.953Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое твърдение се отнася за модификаторът за промяна на поле static</p>",
@@ -3409,7 +3537,8 @@
       "id": 124,
       "correctAnswerId": 3,
       "created": "2018-06-07T22:23:43.337Z",
-      "lastUpdated": "2018-06-07T22:23:45.823Z"
+      "lastUpdated": "2018-06-09T19:03:04.955Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое твърдение се отнася за модификаторът за промяна на поле volatile</p>",
@@ -3437,7 +3566,8 @@
       "id": 125,
       "correctAnswerId": 4,
       "created": "2018-06-07T22:24:43.735Z",
-      "lastUpdated": "2018-06-07T22:24:45.970Z"
+      "lastUpdated": "2018-06-09T19:03:04.958Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>С какъв модификатор се маркира метод, който може да се използва без да е създаден обект от този клас</p>",
@@ -3465,7 +3595,8 @@
       "id": 126,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:28:39.893Z",
-      "lastUpdated": "2018-06-07T22:28:42.847Z"
+      "lastUpdated": "2018-06-09T19:03:04.959Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Когато говорим&nbsp;за методи, модификаторът new се използва за</p>",
@@ -3493,7 +3624,8 @@
       "id": 127,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:31:03.567Z",
-      "lastUpdated": "2018-06-07T22:31:06.225Z"
+      "lastUpdated": "2018-06-09T19:03:04.961Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Модификаторът override се използва за</p>",
@@ -3517,7 +3649,8 @@
       "id": 128,
       "correctAnswerId": 2,
       "created": "2018-06-07T22:32:48.462Z",
-      "lastUpdated": "2018-06-07T22:32:51.524Z"
+      "lastUpdated": "2018-06-09T19:03:04.963Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Посочете вярното твърдение за конструктора</p>",
@@ -3545,7 +3678,8 @@
       "id": 129,
       "correctAnswerId": 4,
       "created": "2018-06-07T22:35:45.962Z",
-      "lastUpdated": "2018-06-07T22:35:51.567Z"
+      "lastUpdated": "2018-06-09T19:03:04.965Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Кое твърдение се отнася за интерфейса</p>",
@@ -3573,7 +3707,8 @@
       "id": 130,
       "correctAnswerId": 4,
       "created": "2018-06-08T18:15:33.979Z",
-      "lastUpdated": "2018-06-08T18:15:36.866Z"
+      "lastUpdated": "2018-06-09T19:03:04.967Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>Коя от следните особености не се отнася за интерфейса</p>",
@@ -3597,7 +3732,627 @@
       "id": 131,
       "correctAnswerId": 3,
       "created": "2018-06-08T18:40:34.174Z",
-      "lastUpdated": "2018-06-08T18:40:37.292Z"
+      "lastUpdated": "2018-06-09T19:03:04.971Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>В кой ред се съдържат само функции, трансформиращи интензитета</p>",
+      "plainText": "В кой ред се съдържат само функции, трансформиращи интензитета",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "фотографски негатив, гама трансформация"
+        },
+        {
+          "id": 2,
+          "text": "трансформация на цветни изображения, изстъняване на изображения"
+        },
+        {
+          "id": 3,
+          "text": "анализ на шума, пикселизация на изображенията"
+        },
+        {
+          "id": 4,
+          "text": "нито един от изброените"
+        }
+      ],
+      "id": 132,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T19:12:25.903Z",
+      "lastUpdated": "2018-06-09T19:03:04.973Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Каква е целта на филтрите за рязкост</p>",
+      "plainText": "Каква е целта на филтрите за рязкост",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "да обърнат внимание на фините детайли на изображението"
+        },
+        {
+          "id": 2,
+          "text": "да обърнат внимание на цветовете на изображението"
+        },
+        {
+          "id": 3,
+          "text": "да обърнат внимание на степента на пикселизация на изображението"
+        },
+        {
+          "id": 4,
+          "text": "да обърнат внимание на детайлите при трансформацията на изображението от един цветови модел в друг"
+        }
+      ],
+      "id": 133,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T19:15:47.181Z",
+      "lastUpdated": "2018-06-09T19:03:04.975Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Кои са най-често използваните пространствени филтриращи техники</p>",
+      "plainText": "Кои са най-често използваните пространствени филтриращи техники",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": " междинно филтриране, средно филтриране, гаусов филтър"
+        },
+        {
+          "id": 2,
+          "text": "линеен филтър, пространствен филтър"
+        },
+        {
+          "id": 3,
+          "text": "пространствено разграничаване, гаусов филтър"
+        },
+        {
+          "id": 4,
+          "text": "кръгов филтър, линеен филтър, гама филтър"
+        }
+      ],
+      "id": 134,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T19:21:06.724Z",
+      "lastUpdated": "2018-06-09T19:03:04.978Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Кои филтри имат ефекта на редактиране на шума</p>",
+      "plainText": "Кои филтри имат ефекта на редактиране на шума",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "пространствени филтри"
+        },
+        {
+          "id": 2,
+          "text": "изгладени линейни филтри"
+        },
+        {
+          "id": 3,
+          "text": "филтри за рязкост"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 135,
+      "correctAnswerId": 2,
+      "created": "2018-06-08T19:23:01.249Z",
+      "lastUpdated": "2018-06-09T19:03:04.981Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Разложеното изображение е</p>",
+      "plainText": "Разложеното изображение е",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "чисто изображение без добавен шум"
+        },
+        {
+          "id": 2,
+          "text": "изображение, получено с пълноцветен сензор"
+        },
+        {
+          "id": 3,
+          "text": "изображение, чиито цветове са получени чрез специфичен монохроматичен интензитет"
+        }
+      ],
+      "id": 136,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T19:25:42.164Z",
+      "lastUpdated": "2018-06-09T19:03:04.983Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Как се получава \"анализ на шума\"</p>",
+      "plainText": "Как се получава \"анализ на шума\"",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "от последователното прилагане на операциите разлагане и възстановяване"
+        },
+        {
+          "id": 2,
+          "text": "от въздействието на околната среда, качеството на сензора и човешката намеса"
+        },
+        {
+          "id": 3,
+          "text": "от прилагането на комбинация от различни пространствени филтри"
+        }
+      ],
+      "id": 137,
+      "correctAnswerId": 2,
+      "created": "2018-06-08T19:28:12.110Z",
+      "lastUpdated": "2018-06-09T19:03:04.986Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>На какво се дължи размазването при движение</p>",
+      "plainText": "На какво се дължи размазването при движение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "на преобразуване на цветовете на изображението"
+        },
+        {
+          "id": 2,
+          "text": "на движението между сензорът на изображението и обектите, придобито в момента на заснемане"
+        },
+        {
+          "id": 3,
+          "text": "на прилагане на филтри за изолиране на шума и премахване на подобните пиксели"
+        },
+        {
+          "id": 4,
+          "text": "на прилагането на различни техники за компресия"
+        }
+      ],
+      "id": 138,
+      "correctAnswerId": 2,
+      "created": "2018-06-08T19:30:42.371Z",
+      "lastUpdated": "2018-06-09T19:03:04.988Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>За обработката на кои изображения се отнася следното твърдение</p><p><em>\"Изображенията са получени с пълноцветен сензор и се дължи на три цветни вектора. Основната обработка на на този тип изображеия е цветната трансформация.\"</em></p>",
+      "plainText": "За обработката на кои изображения се отнася следното твърдение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "цветни изображения"
+        },
+        {
+          "id": 2,
+          "text": "пълноцветни изображения"
+        },
+        {
+          "id": 3,
+          "text": "псевдо-цветни изображения"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 139,
+      "correctAnswerId": 2,
+      "created": "2018-06-08T19:34:37.224Z",
+      "lastUpdated": "2018-06-09T19:03:04.990Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>За обработката на кои изображения се отнася следното твърдение</p><p><em>\"Цветът им е получен чрез специфичен монохроматичен интензитет или комбинация от интензитети. Отнася се до преобразуване на цветовете в сиво според определени данни.\"</em></p>",
+      "plainText": "За обработката на кои изображения се отнася следното твърдение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "цветни изображения"
+        },
+        {
+          "id": 2,
+          "text": "пълноцветни изображения"
+        },
+        {
+          "id": 3,
+          "text": "псевдо-цветни изображения"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 140,
+      "correctAnswerId": 3,
+      "created": "2018-06-08T19:58:27.010Z",
+      "lastUpdated": "2018-06-09T19:03:04.992Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво представлява операцията <em>изостряне на изображение</em></p>",
+      "plainText": "Какво представлява операцията изостряне на изображение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "начин за възпроизвеждане на интензитетите на изображението чрез добавяне на повече детайли"
+        },
+        {
+          "id": 2,
+          "text": "начин за възпроизвеждане на интензитетите на изображението чрез премахване на подобните пиксели"
+        },
+        {
+          "id": 3,
+          "text": "начин за възпроизвеждане на интензитетите на изображението чрез изостряне на фините детайли"
+        }
+      ],
+      "id": 141,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T20:01:54.873Z",
+      "lastUpdated": "2018-06-09T19:03:04.995Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво е компресия</p>",
+      "plainText": "Какво е компресия",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "обработка, при която се намалява броят на пикселите в изображението"
+        },
+        {
+          "id": 2,
+          "text": "обработка, при която се намалява обема на файла"
+        },
+        {
+          "id": 3,
+          "text": "обработка, при която се намалява контрастът в изображението"
+        }
+      ],
+      "id": 142,
+      "correctAnswerId": 2,
+      "created": "2018-06-08T20:09:19.476Z",
+      "lastUpdated": "2018-06-09T19:03:04.999Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Кое твърдение е вярно за <em>компресията със загуби</em></p>",
+      "plainText": "Кое твърдение е вярно за компресията със загуби",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "целта е запазване на по-високи проценти компресия, но с по-малка резолюция на изображението"
+        },
+        {
+          "id": 2,
+          "text": "губят се част от пикселите на оригиналното изображение"
+        },
+        {
+          "id": 3,
+          "text": "намалява се цялостното качество"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 143,
+      "correctAnswerId": 4,
+      "created": "2018-06-08T20:15:31.225Z",
+      "lastUpdated": "2018-06-09T19:03:05.001Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>За кой тип компресия се отнася твърдението</p><p><em>\"Целта е запазване на ниски компресийни съотношения, като се запазват всички пиксели на оригиналното изображение\"</em></p>",
+      "plainText": "За кой тип компресия се отнася твърдението",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "компресия със загуби"
+        },
+        {
+          "id": 2,
+          "text": "компресия без загуби"
+        },
+        {
+          "id": 3,
+          "text": "отнася се и за двата типа компресия"
+        },
+        {
+          "id": 4,
+          "text": "не се отнася за нито един от двата типа компресия"
+        }
+      ],
+      "id": 144,
+      "correctAnswerId": 2,
+      "created": "2018-06-08T20:20:32.005Z",
+      "lastUpdated": "2018-06-09T19:03:05.003Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>В кой ред се съдържат основните методи, използвани при компресия без загуби</p>",
+      "plainText": "В кой ред се съдържат основните методи, използвани при компресия без загуби",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "RLE и Хъфман"
+        },
+        {
+          "id": 2,
+          "text": "JPEG и HSV"
+        },
+        {
+          "id": 3,
+          "text": "JPEG и Хъфман"
+        },
+        {
+          "id": 4,
+          "text": "RLE и HSV"
+        }
+      ],
+      "id": 145,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T20:22:26.598Z",
+      "lastUpdated": "2018-06-09T19:03:05.006Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво представлява <em>JPEG </em>методът за компресия</p>",
+      "plainText": "Какво представлява JPEG методът за компресия",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "изолира информацията в изображението според нивата на важност и изхвърля по-малко важната, което води до намаляване на цялостното качество"
+        },
+        {
+          "id": 2,
+          "text": "запазване на ниски компресийни съотношения, запазвайки всички пиксели на оригиналното изображени"
+        },
+        {
+          "id": 3,
+          "text": "прилагане на специфичен монохроматичен интензитет или комбинация от интензитети, които премахват подобните пиксели и намаляват цялостното качеството на изображението"
+        }
+      ],
+      "id": 146,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T20:24:28.145Z",
+      "lastUpdated": "2018-06-09T19:03:05.009Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>В кой ред не е посочена двойка от противоположни операции</p>",
+      "plainText": "В кой ред не е посочена двойка от противоположни операции",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "разшивяране и ерозия"
+        },
+        {
+          "id": 2,
+          "text": "отваряне и затваряне"
+        },
+        {
+          "id": 3,
+          "text": "изстъняване и сгъстяване"
+        },
+        {
+          "id": 4,
+          "text": "изстриване и възстановяване"
+        }
+      ],
+      "id": 147,
+      "correctAnswerId": 4,
+      "created": "2018-06-08T20:30:24.683Z",
+      "lastUpdated": "2018-06-09T19:03:05.011Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво представлява операцията&nbsp;<em>разширяване</em> за обработка на изображение</p>",
+      "plainText": "Какво представлява операцията разширяване за обработка на изображение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "операция, която разширява ерозиралото изображение с цел възстановяване на изображението до оригиналното"
+        },
+        {
+          "id": 2,
+          "text": "операция, която разширява обекти в двоични изображения"
+        },
+        {
+          "id": 3,
+          "text": "операция, която разглежда разширяването като двустепенен процес"
+        }
+      ],
+      "id": 148,
+      "correctAnswerId": 2,
+      "created": "2018-06-08T20:33:07.644Z",
+      "lastUpdated": "2018-06-09T19:03:05.013Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво представлява операцията&nbsp;<em>ерозия </em>за обработка на изображение</p>",
+      "plainText": "Какво представлява операцията ерозия за обработка на изображение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "операция, която свива обекти в изображение"
+        },
+        {
+          "id": 2,
+          "text": "операция, която разширява обекти в двоични изображения"
+        },
+        {
+          "id": 3,
+          "text": "операция, която разглежда разширяването като двустепенен процес"
+        }
+      ],
+      "id": 149,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T20:34:48.998Z",
+      "lastUpdated": "2018-06-09T19:03:05.014Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво представлява операцията&nbsp;<em>отваряне </em>за обработка на изображение</p>",
+      "plainText": "Какво представлява операцията отваряне за обработка на изображение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "разглежда разширяването като двустепенен процес"
+        },
+        {
+          "id": 2,
+          "text": "операция, която разширява обекти в двоични изображения"
+        },
+        {
+          "id": 3,
+          "text": "разширяване на ерозиралото изображение с цел възстановяване на изображението до оригиналното"
+        }
+      ],
+      "id": 150,
+      "correctAnswerId": 3,
+      "created": "2018-06-08T20:35:55.873Z",
+      "lastUpdated": "2018-06-09T19:03:05.016Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво представлява операцията&nbsp;<em>затваряне </em>за обработка на изображение</p>",
+      "plainText": "Какво представлява операцията затваряне за обработка на изображение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "процес на разширяване, последван от ерозия"
+        },
+        {
+          "id": 2,
+          "text": "операция, която свива обекти в изображение"
+        },
+        {
+          "id": 3,
+          "text": "разглежда ерозията като двустепенен процес, като първо се маркират пикселите, които са кандидати за изтриване и след това се изтриват без да нарушат връзката, при което изображението изтънява"
+        }
+      ],
+      "id": 151,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T20:36:54.654Z",
+      "lastUpdated": "2018-06-09T19:03:05.019Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво представлява операцията&nbsp;<em>изтъняване </em>за обработка на изображение</p>",
+      "plainText": "Какво представлява операцията изтъняване за обработка на изображение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "разглежда разширяването като двустепенен процес"
+        },
+        {
+          "id": 2,
+          "text": "процесът на разширяване, последван от ерозия"
+        },
+        {
+          "id": 3,
+          "text": "разглежда ерозията като двустепенен процес, като първо се маркират пикселите, които са кандидати за изтриване и след това се изтриват без да нарушат връзката, при което изображението изтънява"
+        }
+      ],
+      "id": 152,
+      "correctAnswerId": 3,
+      "created": "2018-06-08T20:41:01.376Z",
+      "lastUpdated": "2018-06-09T19:03:05.020Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Какво представлява операцията&nbsp;<em>сгъстяване </em>за обработка на изображение</p>",
+      "plainText": "Какво представлява операцията сгъстяване за обработка на изображение",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "разглежда разширяването като двустепенен процес"
+        },
+        {
+          "id": 2,
+          "text": "процесът на разширяване, последван от ерозия"
+        },
+        {
+          "id": 3,
+          "text": "операция, която разширява обекти в двоични изображения"
+        }
+      ],
+      "id": 153,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T20:42:41.280Z",
+      "lastUpdated": "2018-06-09T19:03:05.022Z",
+      "questionSourceId": 1
+    },
+    {
+      "text": "<p>Скелет на изображение е</p>",
+      "plainText": "Скелет на изображение е",
+      "categoryId": 8,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "последователното използване на операциите изстъняване и сгъстяване"
+        },
+        {
+          "id": 2,
+          "text": "последователното използване на операциите разширяване и ерозия"
+        },
+        {
+          "id": 3,
+          "text": "последователното използване на операциите отваряне и затваряне"
+        }
+      ],
+      "id": 154,
+      "correctAnswerId": 1,
+      "created": "2018-06-08T20:44:15.923Z",
+      "lastUpdated": "2018-06-09T19:03:05.024Z",
+      "questionSourceId": 1
     }
   ]
 }
