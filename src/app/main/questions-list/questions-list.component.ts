@@ -3,6 +3,8 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { CollectionUtil } from '../../core/services/collection.util';
 import { Category } from '../categories/models/category.model';
 import { CategoriesService } from '../categories/services/categories.service';
+import { QuestionSource } from '../question-sources/models/question-source.model';
+import { QuestionSourcesService } from '../question-sources/services/question-sources.service';
 import { Question } from '../questions/models/question.model';
 import { QuestionsService } from '../questions/services/questions.service';
 
@@ -14,12 +16,14 @@ import { QuestionsService } from '../questions/services/questions.service';
 export class QuestionsListComponent implements OnInit {
 
 	categories: Category[];
+	sources: QuestionSource[];
 	questions: Question[];
 
 	formGroup: FormGroup;
 
 	constructor(private questionsService: QuestionsService,
 				private categoriesService: CategoriesService,
+				private questionSourcesService: QuestionSourcesService,
 				private fb: FormBuilder,
 				private renderer: Renderer2) {
 		this.buildForm();
@@ -34,14 +38,13 @@ export class QuestionsListComponent implements OnInit {
 					categoryId: this.categories[0].id
 				});
 
-				this.onCriteriaChange();
+				this.get();
 			}
 		});
-	}
 
-	onCriteriaChange(): void {
-		const categoryId = this.formGroup.value.categoryId;
-		this.get(categoryId);
+		this.questionSourcesService.getAll({}).subscribe((response) => {
+			this.sources = response.body;
+		});
 	}
 
 	onAnswerSelect(question: Question, answerId: number, answerInput: ElementRef) {
@@ -63,11 +66,17 @@ export class QuestionsListComponent implements OnInit {
 		}
 	}
 
-	private get(categoryId?: number): void {
+	private get(): void {
+		const categoryId = this.formGroup.value.categoryId;
+		const sourceId = this.formGroup.value.sourceId;
+
 		this.questionsService.getAll({
 			getParams: {
 				...categoryId && {
 					categoryId: categoryId
+				},
+				...sourceId && {
+					questionSourceId: sourceId
 				}
 			}
 		}).subscribe((response) => {
@@ -92,6 +101,7 @@ export class QuestionsListComponent implements OnInit {
 	private buildForm(): void {
 		this.formGroup = this.fb.group({
 			categoryId: '',
+			sourceId: '',
 			shuffleQuestions: false,
 			shuffleAnswers: true
 		});
