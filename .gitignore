@@ -36,3 +36,5 @@ dist/
 
 # Typescript typings
 typings/
+
+db/
