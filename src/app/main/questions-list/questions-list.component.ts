@@ -66,7 +66,7 @@ export class QuestionsListComponent implements OnInit {
 		}
 	}
 
-	private get(): void {
+	get(): void {
 		const categoryId = this.formGroup.value.categoryId;
 		const sourceId = this.formGroup.value.sourceId;
 
