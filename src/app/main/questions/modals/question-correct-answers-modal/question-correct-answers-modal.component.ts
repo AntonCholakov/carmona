@@ -32,7 +32,7 @@ export class QuestionCorrectAnswersModalComponent implements OnInit {
 	onSubmit(): void {
 		const data = this.formUtil.prepareData(this.formGroup);
 
-		if (this.question.questionType === 'open') {
+		if (this.question.questionType === 'open' && data.correctAnswer) {
 			data.correctAnswerTrimmed = data.correctAnswer.replace(/\s/g, '');
 		}
 

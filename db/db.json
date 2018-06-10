@@ -40,13 +40,18 @@
       "name": "Обработка на цифрови изображения",
       "id": 8,
       "created": "2018-06-08T18:55:24.746Z"
+    },
+    {
+      "name": "Java",
+      "id": 9,
+      "created": "2018-06-09T19:37:19.275Z"
     }
   ],
   "question-sources": [
     {
-      "name": "Наши измислени",
+      "name": "Измислени от нас",
       "id": 1,
-      "created": "2018-06-09T19:03:02.034Z"
+      "created": "2018-06-09T19:18:32.890Z"
     }
   ],
   "questions": [
@@ -76,7 +81,7 @@
       "id": 1,
       "correctAnswerId": 4,
       "created": "2018-06-03T18:57:50.789Z",
-      "lastUpdated": "2018-06-09T19:03:04.699Z",
+      "lastUpdated": "2018-06-09T19:18:44.069Z",
       "questionSourceId": 1
     },
     {
@@ -105,7 +110,7 @@
       "id": 2,
       "correctAnswerId": 3,
       "created": "2018-06-03T18:58:17.665Z",
-      "lastUpdated": "2018-06-09T19:03:04.701Z",
+      "lastUpdated": "2018-06-09T19:18:44.071Z",
       "questionSourceId": 1
     },
     {
@@ -134,7 +139,7 @@
       "id": 3,
       "correctAnswerId": 3,
       "created": "2018-06-03T18:58:50.692Z",
-      "lastUpdated": "2018-06-09T19:03:04.704Z",
+      "lastUpdated": "2018-06-09T19:18:44.073Z",
       "questionSourceId": 1
     },
     {
@@ -163,7 +168,7 @@
       "id": 4,
       "correctAnswerId": 2,
       "created": "2018-06-03T18:59:23.624Z",
-      "lastUpdated": "2018-06-09T19:03:04.707Z",
+      "lastUpdated": "2018-06-09T19:18:44.076Z",
       "questionSourceId": 1
     },
     {
@@ -188,7 +193,7 @@
       "id": 5,
       "correctAnswerId": 2,
       "created": "2018-06-03T18:59:59.066Z",
-      "lastUpdated": "2018-06-09T19:03:04.709Z",
+      "lastUpdated": "2018-06-09T19:18:44.077Z",
       "questionSourceId": 1
     },
     {
@@ -217,7 +222,7 @@
       "id": 6,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:00:33.060Z",
-      "lastUpdated": "2018-06-09T19:03:04.711Z",
+      "lastUpdated": "2018-06-09T19:18:44.080Z",
       "questionSourceId": 1
     },
     {
@@ -246,7 +251,7 @@
       "id": 7,
       "correctAnswerId": 2,
       "created": "2018-06-03T19:01:02.025Z",
-      "lastUpdated": "2018-06-09T19:03:04.712Z",
+      "lastUpdated": "2018-06-09T19:18:44.081Z",
       "questionSourceId": 1
     },
     {
@@ -275,7 +280,7 @@
       "id": 8,
       "correctAnswerId": 2,
       "created": "2018-06-03T19:01:24.910Z",
-      "lastUpdated": "2018-06-09T19:03:04.717Z",
+      "lastUpdated": "2018-06-09T19:18:44.084Z",
       "questionSourceId": 1
     },
     {
@@ -304,7 +309,7 @@
       "id": 9,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:02:26.255Z",
-      "lastUpdated": "2018-06-09T19:03:04.721Z",
+      "lastUpdated": "2018-06-09T19:18:44.086Z",
       "questionSourceId": 1
     },
     {
@@ -333,7 +338,7 @@
       "id": 10,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:02:58.498Z",
-      "lastUpdated": "2018-06-09T19:03:04.724Z",
+      "lastUpdated": "2018-06-09T19:18:44.088Z",
       "questionSourceId": 1
     },
     {
@@ -362,7 +367,7 @@
       "id": 11,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:03:36.594Z",
-      "lastUpdated": "2018-06-09T19:03:04.727Z",
+      "lastUpdated": "2018-06-09T19:18:44.090Z",
       "questionSourceId": 1
     },
     {
@@ -391,7 +396,7 @@
       "id": 12,
       "correctAnswerId": 4,
       "created": "2018-06-03T19:04:06.278Z",
-      "lastUpdated": "2018-06-09T19:03:04.730Z",
+      "lastUpdated": "2018-06-09T19:18:44.092Z",
       "questionSourceId": 1
     },
     {
@@ -420,7 +425,7 @@
       "id": 13,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:04:38.341Z",
-      "lastUpdated": "2018-06-09T19:03:04.733Z",
+      "lastUpdated": "2018-06-09T19:18:44.093Z",
       "questionSourceId": 1
     },
     {
@@ -449,7 +454,7 @@
       "id": 14,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:05:19.357Z",
-      "lastUpdated": "2018-06-09T19:03:04.738Z",
+      "lastUpdated": "2018-06-09T19:18:44.095Z",
       "questionSourceId": 1
     },
     {
@@ -478,7 +483,7 @@
       "id": 15,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:05:45.982Z",
-      "lastUpdated": "2018-06-09T19:03:04.740Z",
+      "lastUpdated": "2018-06-09T19:18:44.097Z",
       "questionSourceId": 1
     },
     {
@@ -507,7 +512,7 @@
       "id": 16,
       "correctAnswerId": 4,
       "created": "2018-06-03T19:06:27.527Z",
-      "lastUpdated": "2018-06-09T19:03:04.742Z",
+      "lastUpdated": "2018-06-09T19:18:44.098Z",
       "questionSourceId": 1
     },
     {
@@ -536,7 +541,7 @@
       "id": 17,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:09:48.195Z",
-      "lastUpdated": "2018-06-09T19:03:04.744Z",
+      "lastUpdated": "2018-06-09T19:18:44.099Z",
       "questionSourceId": 1
     },
     {
@@ -565,7 +570,7 @@
       "id": 18,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:42:28.629Z",
-      "lastUpdated": "2018-06-09T19:03:04.747Z",
+      "lastUpdated": "2018-06-09T19:18:44.101Z",
       "questionSourceId": 1
     },
     {
@@ -594,7 +599,7 @@
       "id": 19,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:43:43.067Z",
-      "lastUpdated": "2018-06-09T19:03:04.749Z",
+      "lastUpdated": "2018-06-09T19:18:44.102Z",
       "questionSourceId": 1
     },
     {
@@ -623,7 +628,7 @@
       "id": 20,
       "correctAnswerId": 2,
       "created": "2018-06-03T19:46:15.784Z",
-      "lastUpdated": "2018-06-09T19:03:04.750Z",
+      "lastUpdated": "2018-06-09T19:18:44.104Z",
       "questionSourceId": 1
     },
     {
@@ -652,7 +657,7 @@
       "id": 21,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:53:25.626Z",
-      "lastUpdated": "2018-06-09T19:03:04.753Z",
+      "lastUpdated": "2018-06-09T19:18:44.105Z",
       "questionSourceId": 1
     },
     {
@@ -681,7 +686,7 @@
       "id": 22,
       "correctAnswerId": 2,
       "created": "2018-06-03T19:54:11.853Z",
-      "lastUpdated": "2018-06-09T19:03:04.755Z",
+      "lastUpdated": "2018-06-09T19:18:44.107Z",
       "questionSourceId": 1
     },
     {
@@ -710,7 +715,7 @@
       "id": 23,
       "correctAnswerId": 1,
       "created": "2018-06-03T19:54:59.492Z",
-      "lastUpdated": "2018-06-09T19:03:04.758Z",
+      "lastUpdated": "2018-06-09T19:18:44.108Z",
       "questionSourceId": 1
     },
     {
@@ -739,7 +744,7 @@
       "id": 24,
       "correctAnswerId": 4,
       "created": "2018-06-03T19:55:46.009Z",
-      "lastUpdated": "2018-06-09T19:03:04.761Z",
+      "lastUpdated": "2018-06-09T19:18:44.110Z",
       "questionSourceId": 1
     },
     {
@@ -768,7 +773,7 @@
       "id": 25,
       "correctAnswerId": 3,
       "created": "2018-06-03T19:56:17.030Z",
-      "lastUpdated": "2018-06-09T19:03:04.763Z",
+      "lastUpdated": "2018-06-09T19:18:44.111Z",
       "questionSourceId": 1
     },
     {
@@ -797,7 +802,7 @@
       "id": 26,
       "correctAnswerId": 4,
       "created": "2018-06-03T20:00:27.421Z",
-      "lastUpdated": "2018-06-09T19:03:04.766Z",
+      "lastUpdated": "2018-06-09T19:18:44.112Z",
       "questionSourceId": 1
     },
     {
@@ -826,7 +831,7 @@
       "id": 27,
       "correctAnswerId": 4,
       "created": "2018-06-05T18:52:55.567Z",
-      "lastUpdated": "2018-06-09T19:03:04.768Z",
+      "lastUpdated": "2018-06-09T19:18:44.114Z",
       "questionSourceId": 1
     },
     {
@@ -855,7 +860,7 @@
       "id": 28,
       "correctAnswerId": 1,
       "created": "2018-06-05T19:01:23.982Z",
-      "lastUpdated": "2018-06-09T19:03:04.771Z",
+      "lastUpdated": "2018-06-09T19:18:44.115Z",
       "questionSourceId": 1
     },
     {
@@ -884,7 +889,7 @@
       "id": 29,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:03:39.836Z",
-      "lastUpdated": "2018-06-09T19:03:04.773Z",
+      "lastUpdated": "2018-06-09T19:18:44.117Z",
       "questionSourceId": 1
     },
     {
@@ -909,7 +914,7 @@
       "id": 30,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:06:15.238Z",
-      "lastUpdated": "2018-06-09T19:03:04.775Z",
+      "lastUpdated": "2018-06-09T19:18:44.118Z",
       "questionSourceId": 1
     },
     {
@@ -938,7 +943,7 @@
       "id": 31,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:08:23.054Z",
-      "lastUpdated": "2018-06-09T19:03:04.778Z",
+      "lastUpdated": "2018-06-09T19:18:44.120Z",
       "questionSourceId": 1
     },
     {
@@ -967,7 +972,7 @@
       "id": 32,
       "correctAnswerId": 4,
       "created": "2018-06-05T19:09:37.094Z",
-      "lastUpdated": "2018-06-09T19:03:04.780Z",
+      "lastUpdated": "2018-06-09T19:18:44.122Z",
       "questionSourceId": 1
     },
     {
@@ -996,7 +1001,7 @@
       "id": 33,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:20:06.406Z",
-      "lastUpdated": "2018-06-09T19:03:04.782Z",
+      "lastUpdated": "2018-06-09T19:18:44.124Z",
       "questionSourceId": 1
     },
     {
@@ -1025,7 +1030,7 @@
       "id": 34,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:21:26.954Z",
-      "lastUpdated": "2018-06-09T19:03:04.783Z",
+      "lastUpdated": "2018-06-09T19:18:44.125Z",
       "questionSourceId": 1
     },
     {
@@ -1054,7 +1059,7 @@
       "id": 35,
       "correctAnswerId": 4,
       "created": "2018-06-05T19:23:53.445Z",
-      "lastUpdated": "2018-06-09T19:03:04.786Z",
+      "lastUpdated": "2018-06-09T19:18:44.126Z",
       "questionSourceId": 1
     },
     {
@@ -1079,7 +1084,7 @@
       "id": 36,
       "correctAnswerId": 1,
       "created": "2018-06-05T19:30:48.896Z",
-      "lastUpdated": "2018-06-09T19:03:04.788Z",
+      "lastUpdated": "2018-06-09T19:18:44.127Z",
       "questionSourceId": 1
     },
     {
@@ -1108,7 +1113,7 @@
       "id": 37,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:33:22.196Z",
-      "lastUpdated": "2018-06-09T19:03:04.791Z",
+      "lastUpdated": "2018-06-09T19:18:44.129Z",
       "questionSourceId": 1
     },
     {
@@ -1137,7 +1142,7 @@
       "id": 38,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:38:28.384Z",
-      "lastUpdated": "2018-06-09T19:03:04.795Z",
+      "lastUpdated": "2018-06-09T19:18:44.131Z",
       "questionSourceId": 1
     },
     {
@@ -1162,7 +1167,7 @@
       "id": 39,
       "correctAnswerId": 3,
       "created": "2018-06-05T19:40:49.070Z",
-      "lastUpdated": "2018-06-09T19:03:04.798Z",
+      "lastUpdated": "2018-06-09T19:18:44.133Z",
       "questionSourceId": 1
     },
     {
@@ -1191,7 +1196,7 @@
       "id": 40,
       "correctAnswerId": 4,
       "created": "2018-06-05T19:43:09.197Z",
-      "lastUpdated": "2018-06-09T19:03:04.800Z",
+      "lastUpdated": "2018-06-09T19:18:44.134Z",
       "questionSourceId": 1
     },
     {
@@ -1220,7 +1225,7 @@
       "id": 41,
       "correctAnswerId": 1,
       "created": "2018-06-05T19:49:54.711Z",
-      "lastUpdated": "2018-06-09T19:03:04.803Z",
+      "lastUpdated": "2018-06-09T19:18:44.136Z",
       "questionSourceId": 1
     },
     {
@@ -1249,7 +1254,7 @@
       "id": 42,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:50:47.555Z",
-      "lastUpdated": "2018-06-09T19:03:04.806Z",
+      "lastUpdated": "2018-06-09T19:18:44.137Z",
       "questionSourceId": 1
     },
     {
@@ -1278,7 +1283,7 @@
       "id": 43,
       "correctAnswerId": 1,
       "created": "2018-06-05T19:51:59.736Z",
-      "lastUpdated": "2018-06-09T19:03:04.808Z",
+      "lastUpdated": "2018-06-09T19:18:44.140Z",
       "questionSourceId": 1
     },
     {
@@ -1303,7 +1308,7 @@
       "id": 44,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:57:36.753Z",
-      "lastUpdated": "2018-06-09T19:03:04.811Z",
+      "lastUpdated": "2018-06-09T19:18:44.142Z",
       "questionSourceId": 1
     },
     {
@@ -1328,7 +1333,7 @@
       "id": 45,
       "correctAnswerId": 2,
       "created": "2018-06-05T19:58:23.990Z",
-      "lastUpdated": "2018-06-09T19:03:04.814Z",
+      "lastUpdated": "2018-06-09T19:18:44.143Z",
       "questionSourceId": 1
     },
     {
@@ -1353,7 +1358,7 @@
       "id": 46,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:00:35.014Z",
-      "lastUpdated": "2018-06-09T19:03:04.816Z",
+      "lastUpdated": "2018-06-09T19:18:44.145Z",
       "questionSourceId": 1
     },
     {
@@ -1382,7 +1387,8 @@
       "id": 47,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:02:32.055Z",
-      "lastUpdated": "2018-06-05T20:02:35.457Z"
+      "lastUpdated": "2018-06-09T19:18:44.146Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред са посочени само оператори, които се използват от<em> DML (Data Manipulation Language)</em></p>",
@@ -1410,7 +1416,8 @@
       "id": 48,
       "correctAnswerId": 1,
       "created": "2018-06-05T20:04:04.403Z",
-      "lastUpdated": "2018-06-05T20:04:09.033Z"
+      "lastUpdated": "2018-06-09T19:18:44.147Z",
+      "questionSourceId": 1
     },
     {
       "text": "<p>В кой ред са посочени само оператори, които се използват от<em> DDL (Data Definition Language)</em></p>",
@@ -1438,7 +1445,7 @@
       "id": 49,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:06:35.278Z",
-      "lastUpdated": "2018-06-09T19:03:04.822Z",
+      "lastUpdated": "2018-06-09T19:18:44.149Z",
       "questionSourceId": 1
     },
     {
@@ -1463,7 +1470,7 @@
       "id": 50,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:10:18.225Z",
-      "lastUpdated": "2018-06-09T19:03:04.826Z",
+      "lastUpdated": "2018-06-09T19:18:44.151Z",
       "questionSourceId": 1
     },
     {
@@ -1492,7 +1499,7 @@
       "id": 51,
       "correctAnswerId": 1,
       "created": "2018-06-05T20:17:16.587Z",
-      "lastUpdated": "2018-06-09T19:03:04.828Z",
+      "lastUpdated": "2018-06-09T19:18:44.153Z",
       "questionSourceId": 1
     },
     {
@@ -1521,7 +1528,7 @@
       "id": 52,
       "correctAnswerId": 4,
       "created": "2018-06-05T20:20:41.583Z",
-      "lastUpdated": "2018-06-09T19:03:04.829Z",
+      "lastUpdated": "2018-06-09T19:18:44.155Z",
       "questionSourceId": 1
     },
     {
@@ -1550,7 +1557,7 @@
       "id": 53,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:24:30.540Z",
-      "lastUpdated": "2018-06-09T19:03:04.832Z",
+      "lastUpdated": "2018-06-09T19:18:44.156Z",
       "questionSourceId": 1
     },
     {
@@ -1579,7 +1586,7 @@
       "id": 54,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:30:26.949Z",
-      "lastUpdated": "2018-06-09T19:03:04.833Z",
+      "lastUpdated": "2018-06-09T19:18:44.157Z",
       "questionSourceId": 1
     },
     {
@@ -1604,7 +1611,7 @@
       "id": 55,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:36:21.758Z",
-      "lastUpdated": "2018-06-09T19:03:04.835Z",
+      "lastUpdated": "2018-06-09T19:18:44.160Z",
       "questionSourceId": 1
     },
     {
@@ -1633,7 +1640,7 @@
       "id": 56,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:39:08.381Z",
-      "lastUpdated": "2018-06-09T19:03:04.836Z",
+      "lastUpdated": "2018-06-09T19:18:44.161Z",
       "questionSourceId": 1
     },
     {
@@ -1662,7 +1669,7 @@
       "id": 57,
       "correctAnswerId": 2,
       "created": "2018-06-05T20:44:36.555Z",
-      "lastUpdated": "2018-06-09T19:03:04.837Z",
+      "lastUpdated": "2018-06-09T19:18:44.163Z",
       "questionSourceId": 1
     },
     {
@@ -1691,7 +1698,7 @@
       "id": 58,
       "correctAnswerId": 4,
       "created": "2018-06-05T20:45:44.854Z",
-      "lastUpdated": "2018-06-09T19:03:04.840Z",
+      "lastUpdated": "2018-06-09T19:18:44.163Z",
       "questionSourceId": 1
     },
     {
@@ -1720,7 +1727,7 @@
       "id": 59,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:46:59.061Z",
-      "lastUpdated": "2018-06-09T19:03:04.841Z",
+      "lastUpdated": "2018-06-09T19:18:44.165Z",
       "questionSourceId": 1
     },
     {
@@ -1749,7 +1756,7 @@
       "id": 60,
       "correctAnswerId": 1,
       "created": "2018-06-05T20:48:02.275Z",
-      "lastUpdated": "2018-06-09T19:03:04.842Z",
+      "lastUpdated": "2018-06-09T19:18:44.166Z",
       "questionSourceId": 1
     },
     {
@@ -1778,7 +1785,7 @@
       "id": 61,
       "correctAnswerId": 3,
       "created": "2018-06-05T20:50:38.176Z",
-      "lastUpdated": "2018-06-09T19:03:04.844Z",
+      "lastUpdated": "2018-06-09T19:18:44.167Z",
       "questionSourceId": 1
     },
     {
@@ -1803,7 +1810,7 @@
       "id": 62,
       "correctAnswerId": 1,
       "created": "2018-06-07T17:40:10.189Z",
-      "lastUpdated": "2018-06-09T19:03:04.847Z",
+      "lastUpdated": "2018-06-09T19:18:44.170Z",
       "questionSourceId": 1
     },
     {
@@ -1828,7 +1835,7 @@
       "id": 63,
       "correctAnswerId": 1,
       "created": "2018-06-07T17:45:04.175Z",
-      "lastUpdated": "2018-06-09T19:03:04.850Z",
+      "lastUpdated": "2018-06-09T19:18:44.172Z",
       "questionSourceId": 1
     },
     {
@@ -1853,7 +1860,7 @@
       "id": 64,
       "correctAnswerId": 2,
       "created": "2018-06-07T17:45:49.827Z",
-      "lastUpdated": "2018-06-09T19:03:04.851Z",
+      "lastUpdated": "2018-06-09T19:18:44.173Z",
       "questionSourceId": 1
     },
     {
@@ -1878,7 +1885,7 @@
       "id": 65,
       "correctAnswerId": 3,
       "created": "2018-06-07T17:46:24.954Z",
-      "lastUpdated": "2018-06-09T19:03:04.853Z",
+      "lastUpdated": "2018-06-09T19:18:44.175Z",
       "questionSourceId": 1
     },
     {
@@ -1907,7 +1914,7 @@
       "id": 66,
       "correctAnswerId": 2,
       "created": "2018-06-07T17:49:04.424Z",
-      "lastUpdated": "2018-06-09T19:03:04.854Z",
+      "lastUpdated": "2018-06-09T19:18:44.176Z",
       "questionSourceId": 1
     },
     {
@@ -1932,7 +1939,7 @@
       "id": 67,
       "correctAnswerId": 1,
       "created": "2018-06-07T17:52:43.424Z",
-      "lastUpdated": "2018-06-09T19:03:04.856Z",
+      "lastUpdated": "2018-06-09T19:18:44.178Z",
       "questionSourceId": 1
     },
     {
@@ -1957,7 +1964,7 @@
       "id": 68,
       "correctAnswerId": 2,
       "created": "2018-06-07T17:53:46.926Z",
-      "lastUpdated": "2018-06-09T19:03:04.858Z",
+      "lastUpdated": "2018-06-09T19:18:44.179Z",
       "questionSourceId": 1
     },
     {
@@ -1982,7 +1989,7 @@
       "id": 69,
       "correctAnswerId": 2,
       "created": "2018-06-07T17:58:59.995Z",
-      "lastUpdated": "2018-06-09T19:03:04.859Z",
+      "lastUpdated": "2018-06-09T19:18:44.182Z",
       "questionSourceId": 1
     },
     {
@@ -2011,7 +2018,7 @@
       "id": 70,
       "correctAnswerId": 3,
       "created": "2018-06-07T18:05:16.972Z",
-      "lastUpdated": "2018-06-09T19:03:04.860Z",
+      "lastUpdated": "2018-06-09T19:18:44.183Z",
       "questionSourceId": 1
     },
     {
@@ -2040,7 +2047,7 @@
       "id": 71,
       "correctAnswerId": 1,
       "created": "2018-06-07T18:43:56.321Z",
-      "lastUpdated": "2018-06-09T19:03:04.863Z",
+      "lastUpdated": "2018-06-09T19:18:44.184Z",
       "questionSourceId": 1
     },
     {
@@ -2069,7 +2076,7 @@
       "id": 72,
       "correctAnswerId": 4,
       "created": "2018-06-07T18:48:50.549Z",
-      "lastUpdated": "2018-06-09T19:03:04.864Z",
+      "lastUpdated": "2018-06-09T19:18:44.187Z",
       "questionSourceId": 1
     },
     {
@@ -2098,7 +2105,7 @@
       "id": 73,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:00:19.025Z",
-      "lastUpdated": "2018-06-09T19:03:04.865Z",
+      "lastUpdated": "2018-06-09T19:18:44.187Z",
       "questionSourceId": 1
     },
     {
@@ -2127,7 +2134,7 @@
       "id": 74,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:02:28.561Z",
-      "lastUpdated": "2018-06-09T19:03:04.867Z",
+      "lastUpdated": "2018-06-09T19:18:44.188Z",
       "questionSourceId": 1
     },
     {
@@ -2156,7 +2163,7 @@
       "id": 75,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:06:23.603Z",
-      "lastUpdated": "2018-06-09T19:03:04.868Z",
+      "lastUpdated": "2018-06-09T19:18:44.190Z",
       "questionSourceId": 1
     },
     {
@@ -2185,7 +2192,7 @@
       "id": 76,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:09:17.570Z",
-      "lastUpdated": "2018-06-09T19:03:04.870Z",
+      "lastUpdated": "2018-06-09T19:18:44.191Z",
       "questionSourceId": 1
     },
     {
@@ -2214,7 +2221,7 @@
       "id": 77,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:11:10.496Z",
-      "lastUpdated": "2018-06-09T19:03:04.872Z",
+      "lastUpdated": "2018-06-09T19:18:44.193Z",
       "questionSourceId": 1
     },
     {
@@ -2243,7 +2250,7 @@
       "id": 78,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:14:37.660Z",
-      "lastUpdated": "2018-06-09T19:03:04.873Z",
+      "lastUpdated": "2018-06-09T19:18:44.193Z",
       "questionSourceId": 1
     },
     {
@@ -2272,7 +2279,7 @@
       "id": 79,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:18:25.182Z",
-      "lastUpdated": "2018-06-09T19:03:04.876Z",
+      "lastUpdated": "2018-06-09T19:18:44.195Z",
       "questionSourceId": 1
     },
     {
@@ -2301,7 +2308,7 @@
       "id": 80,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:21:43.564Z",
-      "lastUpdated": "2018-06-09T19:03:04.877Z",
+      "lastUpdated": "2018-06-09T19:18:44.196Z",
       "questionSourceId": 1
     },
     {
@@ -2330,7 +2337,7 @@
       "id": 81,
       "correctAnswerId": 4,
       "created": "2018-06-07T19:26:51.711Z",
-      "lastUpdated": "2018-06-09T19:03:04.879Z",
+      "lastUpdated": "2018-06-09T19:18:44.198Z",
       "questionSourceId": 1
     },
     {
@@ -2359,7 +2366,7 @@
       "id": 82,
       "correctAnswerId": 4,
       "created": "2018-06-07T19:30:02.445Z",
-      "lastUpdated": "2018-06-09T19:03:04.881Z",
+      "lastUpdated": "2018-06-09T19:18:44.200Z",
       "questionSourceId": 1
     },
     {
@@ -2384,7 +2391,7 @@
       "id": 83,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:38:56.770Z",
-      "lastUpdated": "2018-06-09T19:03:04.882Z",
+      "lastUpdated": "2018-06-09T19:18:44.201Z",
       "questionSourceId": 1
     },
     {
@@ -2413,7 +2420,7 @@
       "id": 84,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:43:31.750Z",
-      "lastUpdated": "2018-06-09T19:03:04.885Z",
+      "lastUpdated": "2018-06-09T19:18:44.203Z",
       "questionSourceId": 1
     },
     {
@@ -2442,7 +2449,7 @@
       "id": 85,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:45:02.407Z",
-      "lastUpdated": "2018-06-09T19:03:04.886Z",
+      "lastUpdated": "2018-06-09T19:18:44.205Z",
       "questionSourceId": 1
     },
     {
@@ -2471,7 +2478,7 @@
       "id": 86,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:46:49.609Z",
-      "lastUpdated": "2018-06-09T19:03:04.888Z",
+      "lastUpdated": "2018-06-09T19:18:44.207Z",
       "questionSourceId": 1
     },
     {
@@ -2496,7 +2503,7 @@
       "id": 87,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:48:23.796Z",
-      "lastUpdated": "2018-06-09T19:03:04.888Z",
+      "lastUpdated": "2018-06-09T19:18:44.209Z",
       "questionSourceId": 1
     },
     {
@@ -2521,7 +2528,7 @@
       "id": 88,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:49:12.629Z",
-      "lastUpdated": "2018-06-09T19:03:04.891Z",
+      "lastUpdated": "2018-06-09T19:18:44.211Z",
       "questionSourceId": 1
     },
     {
@@ -2546,7 +2553,7 @@
       "id": 89,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:49:55.969Z",
-      "lastUpdated": "2018-06-09T19:03:04.892Z",
+      "lastUpdated": "2018-06-09T19:18:44.212Z",
       "questionSourceId": 1
     },
     {
@@ -2575,7 +2582,7 @@
       "id": 90,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:51:22.398Z",
-      "lastUpdated": "2018-06-09T19:03:04.893Z",
+      "lastUpdated": "2018-06-09T19:18:44.214Z",
       "questionSourceId": 1
     },
     {
@@ -2604,7 +2611,7 @@
       "id": 91,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:53:10.881Z",
-      "lastUpdated": "2018-06-09T19:03:04.895Z",
+      "lastUpdated": "2018-06-09T19:18:44.216Z",
       "questionSourceId": 1
     },
     {
@@ -2633,7 +2640,7 @@
       "id": 92,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:54:11.667Z",
-      "lastUpdated": "2018-06-09T19:03:04.897Z",
+      "lastUpdated": "2018-06-09T19:18:44.217Z",
       "questionSourceId": 1
     },
     {
@@ -2658,7 +2665,7 @@
       "id": 93,
       "correctAnswerId": 1,
       "created": "2018-06-07T19:54:54.135Z",
-      "lastUpdated": "2018-06-09T19:03:04.898Z",
+      "lastUpdated": "2018-06-09T19:18:44.220Z",
       "questionSourceId": 1
     },
     {
@@ -2683,7 +2690,7 @@
       "id": 94,
       "correctAnswerId": 2,
       "created": "2018-06-07T19:55:43.075Z",
-      "lastUpdated": "2018-06-09T19:03:04.899Z",
+      "lastUpdated": "2018-06-09T19:18:44.221Z",
       "questionSourceId": 1
     },
     {
@@ -2708,7 +2715,7 @@
       "id": 95,
       "correctAnswerId": 3,
       "created": "2018-06-07T19:56:25.748Z",
-      "lastUpdated": "2018-06-09T19:03:04.901Z",
+      "lastUpdated": "2018-06-09T19:18:44.223Z",
       "questionSourceId": 1
     },
     {
@@ -2737,7 +2744,7 @@
       "id": 96,
       "correctAnswerId": 2,
       "created": "2018-06-07T20:16:16.057Z",
-      "lastUpdated": "2018-06-09T19:03:04.903Z",
+      "lastUpdated": "2018-06-09T19:18:44.224Z",
       "questionSourceId": 1
     },
     {
@@ -2766,7 +2773,7 @@
       "id": 97,
       "correctAnswerId": 3,
       "created": "2018-06-07T20:20:58.495Z",
-      "lastUpdated": "2018-06-09T19:03:04.904Z",
+      "lastUpdated": "2018-06-09T19:18:44.226Z",
       "questionSourceId": 1
     },
     {
@@ -2795,7 +2802,7 @@
       "id": 98,
       "correctAnswerId": 3,
       "created": "2018-06-07T20:22:23.173Z",
-      "lastUpdated": "2018-06-09T19:03:04.906Z",
+      "lastUpdated": "2018-06-09T19:18:44.229Z",
       "questionSourceId": 1
     },
     {
@@ -2824,7 +2831,7 @@
       "id": 99,
       "correctAnswerId": 1,
       "created": "2018-06-07T20:26:47.289Z",
-      "lastUpdated": "2018-06-09T19:03:04.908Z",
+      "lastUpdated": "2018-06-09T19:18:44.231Z",
       "questionSourceId": 1
     },
     {
@@ -2853,7 +2860,7 @@
       "id": 100,
       "correctAnswerId": 3,
       "created": "2018-06-07T20:35:42.140Z",
-      "lastUpdated": "2018-06-09T19:03:04.910Z",
+      "lastUpdated": "2018-06-09T19:18:44.234Z",
       "questionSourceId": 1
     },
     {
@@ -2882,7 +2889,7 @@
       "id": 101,
       "correctAnswerId": 4,
       "created": "2018-06-07T20:37:41.415Z",
-      "lastUpdated": "2018-06-09T19:03:04.912Z",
+      "lastUpdated": "2018-06-09T19:18:44.235Z",
       "questionSourceId": 1
     },
     {
@@ -2911,7 +2918,7 @@
       "id": 102,
       "correctAnswerId": 4,
       "created": "2018-06-07T20:39:56.898Z",
-      "lastUpdated": "2018-06-09T19:03:04.914Z",
+      "lastUpdated": "2018-06-09T19:18:44.237Z",
       "questionSourceId": 1
     },
     {
@@ -2940,7 +2947,7 @@
       "id": 103,
       "correctAnswerId": 1,
       "created": "2018-06-07T21:13:48.929Z",
-      "lastUpdated": "2018-06-09T19:03:04.916Z",
+      "lastUpdated": "2018-06-09T19:18:44.240Z",
       "questionSourceId": 1
     },
     {
@@ -2969,7 +2976,7 @@
       "id": 104,
       "correctAnswerId": 4,
       "created": "2018-06-07T21:18:21.476Z",
-      "lastUpdated": "2018-06-09T19:03:04.918Z",
+      "lastUpdated": "2018-06-09T19:18:44.242Z",
       "questionSourceId": 1
     },
     {
@@ -2994,7 +3001,7 @@
       "id": 105,
       "correctAnswerId": 2,
       "created": "2018-06-07T21:20:38.691Z",
-      "lastUpdated": "2018-06-09T19:03:04.920Z",
+      "lastUpdated": "2018-06-09T19:18:44.243Z",
       "questionSourceId": 1
     },
     {
@@ -3023,7 +3030,7 @@
       "id": 106,
       "correctAnswerId": 1,
       "created": "2018-06-07T21:23:47.035Z",
-      "lastUpdated": "2018-06-09T19:03:04.922Z",
+      "lastUpdated": "2018-06-09T19:18:44.246Z",
       "questionSourceId": 1
     },
     {
@@ -3052,7 +3059,7 @@
       "id": 107,
       "correctAnswerId": 4,
       "created": "2018-06-07T21:31:02.904Z",
-      "lastUpdated": "2018-06-09T19:03:04.924Z",
+      "lastUpdated": "2018-06-09T19:18:44.248Z",
       "questionSourceId": 1
     },
     {
@@ -3081,7 +3088,7 @@
       "id": 108,
       "correctAnswerId": 4,
       "created": "2018-06-07T21:33:51.181Z",
-      "lastUpdated": "2018-06-09T19:03:04.926Z",
+      "lastUpdated": "2018-06-09T19:18:44.249Z",
       "questionSourceId": 1
     },
     {
@@ -3110,7 +3117,7 @@
       "id": 109,
       "correctAnswerId": 2,
       "created": "2018-06-07T21:34:41.836Z",
-      "lastUpdated": "2018-06-09T19:03:04.927Z",
+      "lastUpdated": "2018-06-09T19:18:44.251Z",
       "questionSourceId": 1
     },
     {
@@ -3139,7 +3146,7 @@
       "id": 110,
       "correctAnswerId": 1,
       "created": "2018-06-07T21:35:44.681Z",
-      "lastUpdated": "2018-06-09T19:03:04.929Z",
+      "lastUpdated": "2018-06-09T19:18:44.252Z",
       "questionSourceId": 1
     },
     {
@@ -3164,7 +3171,7 @@
       "id": 111,
       "correctAnswerId": 1,
       "created": "2018-06-07T21:38:28.126Z",
-      "lastUpdated": "2018-06-09T19:03:04.931Z",
+      "lastUpdated": "2018-06-09T19:18:44.254Z",
       "questionSourceId": 1
     },
     {
@@ -3193,7 +3200,7 @@
       "id": 112,
       "correctAnswerId": 3,
       "created": "2018-06-07T21:42:54.465Z",
-      "lastUpdated": "2018-06-09T19:03:04.932Z",
+      "lastUpdated": "2018-06-09T19:18:44.256Z",
       "questionSourceId": 1
     },
     {
@@ -3222,7 +3229,7 @@
       "id": 113,
       "correctAnswerId": 3,
       "created": "2018-06-07T21:44:21.601Z",
-      "lastUpdated": "2018-06-09T19:03:04.934Z",
+      "lastUpdated": "2018-06-09T19:18:44.256Z",
       "questionSourceId": 1
     },
     {
@@ -3251,7 +3258,7 @@
       "id": 114,
       "correctAnswerId": 4,
       "created": "2018-06-07T21:56:44.715Z",
-      "lastUpdated": "2018-06-09T19:03:04.935Z",
+      "lastUpdated": "2018-06-09T19:18:44.258Z",
       "questionSourceId": 1
     },
     {
@@ -3276,7 +3283,7 @@
       "id": 115,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:00:22.906Z",
-      "lastUpdated": "2018-06-09T19:03:04.937Z",
+      "lastUpdated": "2018-06-09T19:18:44.260Z",
       "questionSourceId": 1
     },
     {
@@ -3305,7 +3312,7 @@
       "id": 116,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:02:46.519Z",
-      "lastUpdated": "2018-06-09T19:03:04.938Z",
+      "lastUpdated": "2018-06-09T19:18:44.261Z",
       "questionSourceId": 1
     },
     {
@@ -3334,7 +3341,7 @@
       "id": 117,
       "correctAnswerId": 2,
       "created": "2018-06-07T22:05:42.104Z",
-      "lastUpdated": "2018-06-09T19:03:04.940Z",
+      "lastUpdated": "2018-06-09T19:18:44.261Z",
       "questionSourceId": 1
     },
     {
@@ -3363,7 +3370,7 @@
       "id": 118,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:08:14.655Z",
-      "lastUpdated": "2018-06-09T19:03:04.942Z",
+      "lastUpdated": "2018-06-09T19:18:44.263Z",
       "questionSourceId": 1
     },
     {
@@ -3392,7 +3399,7 @@
       "id": 119,
       "correctAnswerId": 2,
       "created": "2018-06-07T22:09:25.728Z",
-      "lastUpdated": "2018-06-09T19:03:04.944Z",
+      "lastUpdated": "2018-06-09T19:18:44.264Z",
       "questionSourceId": 1
     },
     {
@@ -3421,7 +3428,7 @@
       "id": 120,
       "correctAnswerId": 3,
       "created": "2018-06-07T22:10:25.700Z",
-      "lastUpdated": "2018-06-09T19:03:04.945Z",
+      "lastUpdated": "2018-06-09T19:18:44.265Z",
       "questionSourceId": 1
     },
     {
@@ -3450,7 +3457,7 @@
       "id": 121,
       "correctAnswerId": 4,
       "created": "2018-06-07T22:11:14.061Z",
-      "lastUpdated": "2018-06-09T19:03:04.947Z",
+      "lastUpdated": "2018-06-09T19:18:44.267Z",
       "questionSourceId": 1
     },
     {
@@ -3479,7 +3486,7 @@
       "id": 122,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:21:45.009Z",
-      "lastUpdated": "2018-06-09T19:03:04.950Z",
+      "lastUpdated": "2018-06-09T19:18:44.268Z",
       "questionSourceId": 1
     },
     {
@@ -3508,7 +3515,7 @@
       "id": 123,
       "correctAnswerId": 2,
       "created": "2018-06-07T22:22:54.889Z",
-      "lastUpdated": "2018-06-09T19:03:04.953Z",
+      "lastUpdated": "2018-06-09T19:18:44.269Z",
       "questionSourceId": 1
     },
     {
@@ -3537,7 +3544,7 @@
       "id": 124,
       "correctAnswerId": 3,
       "created": "2018-06-07T22:23:43.337Z",
-      "lastUpdated": "2018-06-09T19:03:04.955Z",
+      "lastUpdated": "2018-06-09T19:18:44.270Z",
       "questionSourceId": 1
     },
     {
@@ -3566,7 +3573,7 @@
       "id": 125,
       "correctAnswerId": 4,
       "created": "2018-06-07T22:24:43.735Z",
-      "lastUpdated": "2018-06-09T19:03:04.958Z",
+      "lastUpdated": "2018-06-09T19:18:44.272Z",
       "questionSourceId": 1
     },
     {
@@ -3595,7 +3602,7 @@
       "id": 126,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:28:39.893Z",
-      "lastUpdated": "2018-06-09T19:03:04.959Z",
+      "lastUpdated": "2018-06-09T19:18:44.273Z",
       "questionSourceId": 1
     },
     {
@@ -3624,7 +3631,7 @@
       "id": 127,
       "correctAnswerId": 1,
       "created": "2018-06-07T22:31:03.567Z",
-      "lastUpdated": "2018-06-09T19:03:04.961Z",
+      "lastUpdated": "2018-06-09T19:18:44.275Z",
       "questionSourceId": 1
     },
     {
@@ -3649,7 +3656,7 @@
       "id": 128,
       "correctAnswerId": 2,
       "created": "2018-06-07T22:32:48.462Z",
-      "lastUpdated": "2018-06-09T19:03:04.963Z",
+      "lastUpdated": "2018-06-09T19:18:44.276Z",
       "questionSourceId": 1
     },
     {
@@ -3678,7 +3685,7 @@
       "id": 129,
       "correctAnswerId": 4,
       "created": "2018-06-07T22:35:45.962Z",
-      "lastUpdated": "2018-06-09T19:03:04.965Z",
+      "lastUpdated": "2018-06-09T19:18:44.277Z",
       "questionSourceId": 1
     },
     {
@@ -3707,7 +3714,7 @@
       "id": 130,
       "correctAnswerId": 4,
       "created": "2018-06-08T18:15:33.979Z",
-      "lastUpdated": "2018-06-09T19:03:04.967Z",
+      "lastUpdated": "2018-06-09T19:18:44.279Z",
       "questionSourceId": 1
     },
     {
@@ -3732,7 +3739,7 @@
       "id": 131,
       "correctAnswerId": 3,
       "created": "2018-06-08T18:40:34.174Z",
-      "lastUpdated": "2018-06-09T19:03:04.971Z",
+      "lastUpdated": "2018-06-09T19:18:44.280Z",
       "questionSourceId": 1
     },
     {
@@ -3761,7 +3768,7 @@
       "id": 132,
       "correctAnswerId": 1,
       "created": "2018-06-08T19:12:25.903Z",
-      "lastUpdated": "2018-06-09T19:03:04.973Z",
+      "lastUpdated": "2018-06-09T19:18:44.281Z",
       "questionSourceId": 1
     },
     {
@@ -3790,7 +3797,7 @@
       "id": 133,
       "correctAnswerId": 1,
       "created": "2018-06-08T19:15:47.181Z",
-      "lastUpdated": "2018-06-09T19:03:04.975Z",
+      "lastUpdated": "2018-06-09T19:18:44.282Z",
       "questionSourceId": 1
     },
     {
@@ -3819,7 +3826,7 @@
       "id": 134,
       "correctAnswerId": 1,
       "created": "2018-06-08T19:21:06.724Z",
-      "lastUpdated": "2018-06-09T19:03:04.978Z",
+      "lastUpdated": "2018-06-09T19:18:44.284Z",
       "questionSourceId": 1
     },
     {
@@ -3848,7 +3855,7 @@
       "id": 135,
       "correctAnswerId": 2,
       "created": "2018-06-08T19:23:01.249Z",
-      "lastUpdated": "2018-06-09T19:03:04.981Z",
+      "lastUpdated": "2018-06-09T19:18:44.285Z",
       "questionSourceId": 1
     },
     {
@@ -3873,7 +3880,7 @@
       "id": 136,
       "correctAnswerId": 1,
       "created": "2018-06-08T19:25:42.164Z",
-      "lastUpdated": "2018-06-09T19:03:04.983Z",
+      "lastUpdated": "2018-06-09T19:18:44.287Z",
       "questionSourceId": 1
     },
     {
@@ -3898,7 +3905,7 @@
       "id": 137,
       "correctAnswerId": 2,
       "created": "2018-06-08T19:28:12.110Z",
-      "lastUpdated": "2018-06-09T19:03:04.986Z",
+      "lastUpdated": "2018-06-09T19:18:44.288Z",
       "questionSourceId": 1
     },
     {
@@ -3927,7 +3934,7 @@
       "id": 138,
       "correctAnswerId": 2,
       "created": "2018-06-08T19:30:42.371Z",
-      "lastUpdated": "2018-06-09T19:03:04.988Z",
+      "lastUpdated": "2018-06-09T19:18:44.289Z",
       "questionSourceId": 1
     },
     {
@@ -3956,7 +3963,7 @@
       "id": 139,
       "correctAnswerId": 2,
       "created": "2018-06-08T19:34:37.224Z",
-      "lastUpdated": "2018-06-09T19:03:04.990Z",
+      "lastUpdated": "2018-06-09T19:18:44.290Z",
       "questionSourceId": 1
     },
     {
@@ -3985,7 +3992,7 @@
       "id": 140,
       "correctAnswerId": 3,
       "created": "2018-06-08T19:58:27.010Z",
-      "lastUpdated": "2018-06-09T19:03:04.992Z",
+      "lastUpdated": "2018-06-09T19:18:44.292Z",
       "questionSourceId": 1
     },
     {
@@ -4010,7 +4017,7 @@
       "id": 141,
       "correctAnswerId": 1,
       "created": "2018-06-08T20:01:54.873Z",
-      "lastUpdated": "2018-06-09T19:03:04.995Z",
+      "lastUpdated": "2018-06-09T19:18:44.294Z",
       "questionSourceId": 1
     },
     {
@@ -4035,7 +4042,7 @@
       "id": 142,
       "correctAnswerId": 2,
       "created": "2018-06-08T20:09:19.476Z",
-      "lastUpdated": "2018-06-09T19:03:04.999Z",
+      "lastUpdated": "2018-06-09T19:18:44.294Z",
       "questionSourceId": 1
     },
     {
@@ -4064,7 +4071,7 @@
       "id": 143,
       "correctAnswerId": 4,
       "created": "2018-06-08T20:15:31.225Z",
-      "lastUpdated": "2018-06-09T19:03:05.001Z",
+      "lastUpdated": "2018-06-09T19:18:44.296Z",
       "questionSourceId": 1
     },
     {
@@ -4093,7 +4100,7 @@
       "id": 144,
       "correctAnswerId": 2,
       "created": "2018-06-08T20:20:32.005Z",
-      "lastUpdated": "2018-06-09T19:03:05.003Z",
+      "lastUpdated": "2018-06-09T19:18:44.297Z",
       "questionSourceId": 1
     },
     {
@@ -4122,7 +4129,7 @@
       "id": 145,
       "correctAnswerId": 1,
       "created": "2018-06-08T20:22:26.598Z",
-      "lastUpdated": "2018-06-09T19:03:05.006Z",
+      "lastUpdated": "2018-06-09T19:18:44.298Z",
       "questionSourceId": 1
     },
     {
@@ -4147,7 +4154,7 @@
       "id": 146,
       "correctAnswerId": 1,
       "created": "2018-06-08T20:24:28.145Z",
-      "lastUpdated": "2018-06-09T19:03:05.009Z",
+      "lastUpdated": "2018-06-09T19:18:44.300Z",
       "questionSourceId": 1
     },
     {
@@ -4176,7 +4183,7 @@
       "id": 147,
       "correctAnswerId": 4,
       "created": "2018-06-08T20:30:24.683Z",
-      "lastUpdated": "2018-06-09T19:03:05.011Z",
+      "lastUpdated": "2018-06-09T19:18:44.301Z",
       "questionSourceId": 1
     },
     {
@@ -4201,7 +4208,7 @@
       "id": 148,
       "correctAnswerId": 2,
       "created": "2018-06-08T20:33:07.644Z",
-      "lastUpdated": "2018-06-09T19:03:05.013Z",
+      "lastUpdated": "2018-06-09T19:18:44.302Z",
       "questionSourceId": 1
     },
     {
@@ -4226,7 +4233,7 @@
       "id": 149,
       "correctAnswerId": 1,
       "created": "2018-06-08T20:34:48.998Z",
-      "lastUpdated": "2018-06-09T19:03:05.014Z",
+      "lastUpdated": "2018-06-09T19:18:44.304Z",
       "questionSourceId": 1
     },
     {
@@ -4251,7 +4258,7 @@
       "id": 150,
       "correctAnswerId": 3,
       "created": "2018-06-08T20:35:55.873Z",
-      "lastUpdated": "2018-06-09T19:03:05.016Z",
+      "lastUpdated": "2018-06-09T19:18:44.305Z",
       "questionSourceId": 1
     },
     {
@@ -4276,7 +4283,7 @@
       "id": 151,
       "correctAnswerId": 1,
       "created": "2018-06-08T20:36:54.654Z",
-      "lastUpdated": "2018-06-09T19:03:05.019Z",
+      "lastUpdated": "2018-06-09T19:18:44.306Z",
       "questionSourceId": 1
     },
     {
@@ -4301,7 +4308,7 @@
       "id": 152,
       "correctAnswerId": 3,
       "created": "2018-06-08T20:41:01.376Z",
-      "lastUpdated": "2018-06-09T19:03:05.020Z",
+      "lastUpdated": "2018-06-09T19:18:44.308Z",
       "questionSourceId": 1
     },
     {
@@ -4326,7 +4333,7 @@
       "id": 153,
       "correctAnswerId": 1,
       "created": "2018-06-08T20:42:41.280Z",
-      "lastUpdated": "2018-06-09T19:03:05.022Z",
+      "lastUpdated": "2018-06-09T19:18:44.309Z",
       "questionSourceId": 1
     },
     {
@@ -4351,8 +4358,953 @@
       "id": 154,
       "correctAnswerId": 1,
       "created": "2018-06-08T20:44:15.923Z",
-      "lastUpdated": "2018-06-09T19:03:05.024Z",
+      "lastUpdated": "2018-06-09T19:18:44.311Z",
       "questionSourceId": 1
+    },
+    {
+      "text": "<p>Посочете невярното твърдение</p>",
+      "plainText": "Посочете невярното твърдение",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "при компилиране на .java файл се получава изходен файл със същото име и разширение"
+        },
+        {
+          "id": 2,
+          "text": "всяка компилационна единица се състои от само един публичен клас"
+        },
+        {
+          "id": 3,
+          "text": "една работеща java програма може да включва няколко .class файла, които да бъдат пакетирани и компресирани в jar файл"
+        },
+        {
+          "id": 4,
+          "text": "има java нтерпретатор, който открива, зарежда и интерпретира всички .class файлове"
+        }
+      ],
+      "id": 155,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T19:43:53.181Z",
+      "lastUpdated": "2018-06-09T19:43:59.201Z"
+    },
+    {
+      "text": "<p>Какво представлява <em>императивният модел </em>за програмиране</p>",
+      "plainText": "Какво представлява императивният модел за програмиране",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "модел, ориентиран към писане на алгоритми чрез методи и функции (процедурно програмиране)"
+        },
+        {
+          "id": 2,
+          "text": "модел, който се базира на коцепцията за създаване и имплементация на класове и обекти"
+        },
+        {
+          "id": 3,
+          "text": "модел, който се базира на описание на проблеми, които се решават чрез езика на предикатната логика"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 156,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T19:47:12.801Z",
+      "lastUpdated": "2018-06-09T19:47:16.984Z"
+    },
+    {
+      "text": "<p>Какво представлява <em>обектно-ориентираният модел </em>за програмиране</p>",
+      "plainText": "Какво представлява обектно-ориентираният модел за програмиране",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "модел, ориентиран към писане на алгоритми чрез методи и функции (процедурно програмиране)"
+        },
+        {
+          "id": 2,
+          "text": "модел, който се базира на описание на проблеми, които се решават чрез езика на предикатната логика"
+        },
+        {
+          "id": 3,
+          "text": "модел, който се базира на коцепцията за създаване и имплементация на класове и обекти"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 157,
+      "correctAnswerId": 3,
+      "created": "2018-06-09T19:49:36.329Z",
+      "lastUpdated": "2018-06-09T19:49:44.678Z"
+    },
+    {
+      "text": "<p>Какво представлява <em>логическият модел </em>за програмиране</p>",
+      "plainText": "Какво представлява логическият модел за програмиране",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "модел, ориентиран към писане на алгоритми чрез методи и функции (процедурно програмиране)"
+        },
+        {
+          "id": 2,
+          "text": "модел, който се базира на коцепцията за създаване и имплементация на класове и обекти"
+        },
+        {
+          "id": 3,
+          "text": "модел, който се базира на описание на проблеми, които се решават чрез езика на предикатната логика"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 158,
+      "correctAnswerId": 3,
+      "created": "2018-06-09T19:50:32.514Z",
+      "lastUpdated": "2018-06-09T19:50:37.547Z"
+    },
+    {
+      "text": "<p>Кое от следните твърдения не се отнася за main метода в java</p>",
+      "plainText": "Кое от следните твърдения не се отнася за main метода в java",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "всяка java програма може да дефинира само по един main метод"
+        },
+        {
+          "id": 2,
+          "text": "main методът се изпълнява при стартирнена програмата"
+        },
+        {
+          "id": 3,
+          "text": "main методът се изпълнява всеки път при създаване на нов обект или извикване на педварително дефинирана функция"
+        }
+      ],
+      "id": 159,
+      "correctAnswerId": 3,
+      "created": "2018-06-09T19:55:41.757Z",
+      "lastUpdated": "2018-06-09T19:55:44.453Z"
+    },
+    {
+      "text": "<p>Кое от твърденията за класовете и обектите в java не е вярно</p>",
+      "plainText": "Кое от твърденията за класовете и обектите в java не е вярно",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "всеки клас може да дефинира много обекти"
+        },
+        {
+          "id": 2,
+          "text": "обектите се създават с оператор new"
+        },
+        {
+          "id": 3,
+          "text": "характеристиките на обектие се променят чрез използването на пропъртита (аналогично като в C#)"
+        },
+        {
+          "id": 4,
+          "text": "характериситиките и методите на обектите се достъпват чрез оператор точка"
+        }
+      ],
+      "id": 160,
+      "correctAnswerId": 3,
+      "created": "2018-06-09T20:00:23.996Z",
+      "lastUpdated": "2018-06-09T20:01:08.802Z"
+    },
+    {
+      "text": "<p>Класът Keyboard се използва за</p>",
+      "plainText": "Класът Keyboard се използва за",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "визуализация на данни на конзолата/ екрана"
+        },
+        {
+          "id": 2,
+          "text": "за input операции"
+        },
+        {
+          "id": 3,
+          "text": "за output операции"
+        }
+      ],
+      "id": 161,
+      "correctAnswerId": 2,
+      "created": "2018-06-09T20:04:36.997Z",
+      "lastUpdated": "2018-06-09T20:04:52.409Z"
+    },
+    {
+      "text": "<p>Кои са основните методи в java, които се използват за показване на данни на конзолата/ екрана (output операции)</p>",
+      "plainText": "Кои са основните методи в java, които се използват за показване на данни на конзолата/ екрана (output операции)",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "open",
+      "id": 162,
+      "created": "2018-06-09T20:06:03.711Z",
+      "correctAnswer": "System.out.print()\nSystem.out.println()",
+      "correctAnswerTrimmed": "System.out.print()System.out.println()",
+      "lastUpdated": "2018-06-09T20:09:59.447Z"
+    },
+    {
+      "text": "<p>В кой ред се съдържат всички възможни начини за преобразуване на типовете данни един в друг</p>",
+      "plainText": "В кой ред се съдържат всички възможни начини за преобразуване на типовете данни един в друг",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "явно и автоматично"
+        },
+        {
+          "id": 2,
+          "text": "явнo и type-cast"
+        },
+        {
+          "id": 3,
+          "text": "скрито и type-cast"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 163,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T20:15:35.888Z",
+      "lastUpdated": "2018-06-09T20:15:52.965Z"
+    },
+    {
+      "text": "<p>Какво е Java API</p>",
+      "plainText": "Какво е Java API",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": " стандартна библиотека, която включва множество дефинирани компоненти, които Java компилатор може да обработи"
+        },
+        {
+          "id": 2,
+          "text": "стандартна библиотека, която включва базови класове и компоненти за извършване на входно-изходни операции"
+        },
+        {
+          "id": 3,
+          "text": "стандартна библиотека, която съдържа основните пакети, които са задължителна част за всяко едно java приложение"
+        },
+        {
+          "id": 4,
+          "text": "стандартна бблиотека, която съдържа всички системни пакети"
+        }
+      ],
+      "id": 164,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T20:24:12.228Z",
+      "lastUpdated": "2018-06-09T20:24:33.316Z"
+    },
+    {
+      "text": "<p>В java, пакетите са</p>",
+      "plainText": "В java, пакетите са",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "набор от класове с подобни задачи"
+        },
+        {
+          "id": 2,
+          "text": "съвкупността от класове, които изграждат всяко приложение"
+        },
+        {
+          "id": 3,
+          "text": "съвкупност от класове, които дефинират обекти със сходни характеристики и поведение"
+        }
+      ],
+      "id": 165,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T20:26:20.170Z",
+      "lastUpdated": "2018-06-09T20:26:23.000Z"
+    },
+    {
+      "text": "<p>Кое от следните твърдения не се отнася за пакетите в java</p>",
+      "plainText": "Кое от следните твърдения не се отнася за пакетите в java",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "обикновено класовете в една директория формират пакет"
+        },
+        {
+          "id": 2,
+          "text": "всички .class файлове, които се съхраняват в директория, принадлежат на общ безименен (дефолтен) пакет"
+        },
+        {
+          "id": 3,
+          "text": "включването на пакети става чрез използването на using"
+        }
+      ],
+      "id": 166,
+      "correctAnswerId": 3,
+      "created": "2018-06-09T20:29:21.394Z",
+      "lastUpdated": "2018-06-09T20:29:29.314Z"
+    },
+    {
+      "text": "<p>В java, <em>рекурсията </em>е</p>",
+      "plainText": "В java, рекурсията е",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "описание на проблем чрез себе си"
+        },
+        {
+          "id": 2,
+          "text": "алгоритъм за криптиране"
+        },
+        {
+          "id": 3,
+          "text": "име на пакет"
+        },
+        {
+          "id": 4,
+          "text": "метод за сортиране"
+        }
+      ],
+      "id": 167,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T20:36:25.653Z",
+      "lastUpdated": "2018-06-09T20:39:29.924Z"
+    },
+    {
+      "text": "<p>Вярно ли е следното твърдение за рекурсията</p><p><em>\"Рекурсивните методи директно или индиректно извиква себе си и намират приложение най-вече при решаване на логически проблеми чрез изграждане на дървета и списъци, различни методи за сортиране и други\".</em></p>",
+      "plainText": "Вярно ли е следното твърдение за рекурсията",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "да"
+        },
+        {
+          "id": 2,
+          "text": "не"
+        }
+      ],
+      "id": 168,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T20:39:08.966Z",
+      "lastUpdated": "2018-06-09T20:41:08.181Z"
+    },
+    {
+      "text": "<p>В кой ред се съдържат само методи за сортиране</p>",
+      "plainText": "В кой ред се съдържат само методи за сортиране",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Selection sort, Bubble sort, Quick sort"
+        },
+        {
+          "id": 2,
+          "text": "Hashtable, Bubble sort, Quick sort"
+        },
+        {
+          "id": 3,
+          "text": "Classic sort, Selection sort, Bubble sort"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени са методи за сортиране"
+        }
+      ],
+      "id": 169,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T20:46:17.250Z",
+      "lastUpdated": "2018-06-09T20:46:20.590Z"
+    },
+    {
+      "text": "<p>В кой ред се съдържат само методи за търсене</p>",
+      "plainText": "В кой ред се съдържат само методи за търсене",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "линейно, двоично, hash техника"
+        },
+        {
+          "id": 2,
+          "text": "hashtable клас, quick search, метод на поделянето"
+        },
+        {
+          "id": 3,
+          "text": "selection seach, последователно претъсване, метод на поделянето"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени са методи за търсене"
+        }
+      ],
+      "id": 170,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T20:49:51.997Z",
+      "lastUpdated": "2018-06-09T20:49:54.847Z"
+    },
+    {
+      "text": "<p>Коя ключова дума в java не позволява на наследниците да предефинират методите на суперкласа</p>",
+      "plainText": "Коя ключова дума в java не позволява на наследниците да предефинират методите на суперкласа",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "sealed"
+        },
+        {
+          "id": 2,
+          "text": "abstract"
+        },
+        {
+          "id": 3,
+          "text": "final"
+        },
+        {
+          "id": 4,
+          "text": "superclass"
+        }
+      ],
+      "id": 171,
+      "correctAnswerId": 3,
+      "created": "2018-06-09T20:52:08.445Z",
+      "lastUpdated": "2018-06-09T20:52:11.069Z"
+    },
+    {
+      "text": "<p>Кое твърдение не се отнася за java аплетите</p>",
+      "plainText": "Кое твърдение не се отнася за java аплетите",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "изпълняват се директно с Java-Interpreter"
+        },
+        {
+          "id": 2,
+          "text": "стартират се с помощта на уеб браузър"
+        },
+        {
+          "id": 3,
+          "text": "работят с графичен интерфейс"
+        },
+        {
+          "id": 4,
+          "text": "дефинират main метод"
+        }
+      ],
+      "id": 172,
+      "correctAnswerId": 4,
+      "created": "2018-06-09T21:00:22.865Z",
+      "lastUpdated": "2018-06-09T21:00:25.722Z"
+    },
+    {
+      "text": "<p>Кое се отнася за java аплетите</p>",
+      "plainText": "Кое се отнася за java аплетите",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "могат да бъдат заредени през мрежата и директно извиквани от браузър, рамки на приложения"
+        },
+        {
+          "id": 2,
+          "text": "когато потребител отвори HTML страница, съдържаща applet, кодът на аплета се сваля на машината на потребителя"
+        },
+        {
+          "id": 3,
+          "text": "аплет класовете наследяват java.applet.Applet"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 173,
+      "correctAnswerId": 4,
+      "created": "2018-06-09T21:01:58.718Z",
+      "lastUpdated": "2018-06-09T21:02:02.037Z"
+    },
+    {
+      "text": "<p>Кое твърдение се отнася за <em>рамки на приложения </em>в java</p>",
+      "plainText": "Кое твърдение се отнася за рамки на приложения в java",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "елементите в библиотеките се групират съобразно функционалността си и осигуряват класове, задаващи основно поведение"
+        },
+        {
+          "id": 2,
+          "text": "библиотеките се използват така, както са създадени, без да се променят"
+        },
+        {
+          "id": 3,
+          "text": "библиотеките са проектирани като изграждащи блокове"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени се отнасят за рамки на приложенията"
+        }
+      ],
+      "id": 174,
+      "correctAnswerId": 4,
+      "created": "2018-06-09T21:07:00.119Z",
+      "lastUpdated": "2018-06-09T21:07:04.014Z"
+    },
+    {
+      "text": "<p>За какво се използва методът на аплетите <em>init()</em></p>",
+      "plainText": "За какво се използва методът на аплетите init()",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "извиква се автоматично за първоначална инициализация; включва разположение на компонентите и винаги се предефинира"
+        },
+        {
+          "id": 2,
+          "text": "извиква се всеки път, когато аплетът влезе в зоната на видимост на браузъра"
+        },
+        {
+          "id": 3,
+          "text": "извиква се всеки път, когато аплетът излезе от зоната на видимост на браузъра"
+        },
+        {
+          "id": 4,
+          "text": "окончателно освобождаване на ресурсите"
+        }
+      ],
+      "id": 175,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T21:09:25.173Z",
+      "lastUpdated": "2018-06-09T21:09:29.909Z"
+    },
+    {
+      "text": "<p>За какво се използва методът на аплетите <em>start()</em></p>",
+      "plainText": "За какво се използва методът на аплетите start()",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "извиква се автоматично за първоначална инициализация; включва разположение на компонентите и винаги се предефинира"
+        },
+        {
+          "id": 2,
+          "text": "извиква се всеки път, когато аплетът влезе в зоната на видимост на браузъра; извиква се след init() и позволява на аплета да започне нормалните си операции"
+        },
+        {
+          "id": 3,
+          "text": "извиква се всеки път, когато аплетът излезе от зоната на видимост на браузъра"
+        },
+        {
+          "id": 4,
+          "text": "окончателно освобождаване на ресурсите"
+        }
+      ],
+      "id": 176,
+      "correctAnswerId": 2,
+      "created": "2018-06-09T21:10:48.591Z",
+      "lastUpdated": "2018-06-09T21:10:58.048Z"
+    },
+    {
+      "text": "<p>За какво се използва методът на аплетите <em>stop()</em></p>",
+      "plainText": "За какво се използва методът на аплетите stop()",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "извиква се всеки път, когато аплетът излезе от зоната на видимост на браузъра, извиква се точно преди destroy()"
+        },
+        {
+          "id": 2,
+          "text": "окончателно освобождаване на ресурсите"
+        },
+        {
+          "id": 3,
+          "text": "извиква се автоматично за първоначална инициализация; включва разположение на компонентите и винаги се предефинира"
+        },
+        {
+          "id": 4,
+          "text": "извиква се всеки път, когато аплетът влезе в зоната на видимост на браузъра"
+        }
+      ],
+      "id": 177,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T21:12:20.447Z",
+      "lastUpdated": "2018-06-09T21:12:24.680Z"
+    },
+    {
+      "text": "<p>За какво се използва методът на аплетите destroy<em>()</em></p>",
+      "plainText": "За какво се използва методът на аплетите destroy()",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "извиква се всеки път, когато аплетът излезе от зоната на видимост на браузъра"
+        },
+        {
+          "id": 2,
+          "text": "извиква се автоматично за първоначална инициализация; включва разположение на компонентите и винаги се предефинира"
+        },
+        {
+          "id": 3,
+          "text": "извиква се всеки път, когато аплетът влезе в зоната на видимост на браузъра"
+        },
+        {
+          "id": 4,
+          "text": "окончателно освобождаване на ресурсите"
+        }
+      ],
+      "id": 178,
+      "correctAnswerId": 4,
+      "created": "2018-06-09T21:13:11.587Z",
+      "lastUpdated": "2018-06-09T21:13:13.752Z"
+    },
+    {
+      "text": "<p>Посочете вярното твърдение. В java, при работа с нишки</p>",
+      "plainText": "Посочете вярното твърдение. В java, при работа с нишки",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "основният пронцип се състои в това, че JVM стартира един основен процес, на който се изпълнява main метода"
+        },
+        {
+          "id": 2,
+          "text": "кодът се разполага в run метода на подкласа, създава се обект на подкласа и стартиране на нишката със start метода"
+        },
+        {
+          "id": 3,
+          "text": "използват се класове, наследяващи класа Thread"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 179,
+      "correctAnswerId": 4,
+      "created": "2018-06-09T21:18:24.586Z",
+      "lastUpdated": "2018-06-09T21:18:27.499Z"
+    },
+    {
+      "text": "<p>Посочете вярното твърдение за Thread Scheduler</p>",
+      "plainText": "Посочете вярното твърдение за Thread Scheduler",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "не дава гаранция за реда на изпълнение на нишките - всяка нишка се обработва за кратък времеви период, след което Thread Scheduler избира за активиране друга нишка"
+        },
+        {
+          "id": 2,
+          "text": "една нишка е runnable, ако в момента не спи или не е блокирана по никакъв начин"
+        },
+        {
+          "id": 3,
+          "text": "когато нишка работи в метод, тя го заключва и в този момент никоя друга нишка няма достъп до този обект"
+        },
+        {
+          "id": 4,
+          "text": "чрез.sleep() нишката сама прекъсва работата си, а чрез .join() чака края на друга нишка"
+        },
+        {
+          "id": 5,
+          "text": "всички изброени са верни"
+        }
+      ],
+      "id": 180,
+      "correctAnswerId": 5,
+      "created": "2018-06-09T21:26:51.803Z",
+      "lastUpdated": "2018-06-09T21:27:28.054Z"
+    },
+    {
+      "text": "<p>Посочете вярното твърдение за generic типовете в java</p>",
+      "plainText": "Посочете вярното твърдение за generic типовете в java",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "при Generic класовете има изградена йерархия от класове"
+        },
+        {
+          "id": 2,
+          "text": "на върха на йерархията е object"
+        },
+        {
+          "id": 3,
+          "text": "generic типът T е произволен, но определен"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 181,
+      "correctAnswerId": 4,
+      "created": "2018-06-09T21:30:27.367Z",
+      "lastUpdated": "2018-06-09T21:30:30.380Z"
+    },
+    {
+      "text": "<p>Твърдението </p><p><em>\"В Java, Garbage Collector се грижи за автоматичното освобождаване на ненужната памет\" </em>е</p>",
+      "plainText": "Твърдението \"В Java, Garbage Collector се грижи за автоматичното освобождаване на ненужната памет\"",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "вярно"
+        },
+        {
+          "id": 2,
+          "text": "грешно"
+        }
+      ],
+      "id": 182,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T21:31:44.907Z",
+      "lastUpdated": "2018-06-09T21:31:49.846Z"
+    },
+    {
+      "text": "<p>Кое от твърденията се отнася за структурата от данни LinkedList</p>",
+      "plainText": "Кое от твърденията се отнася за структурата от данни LinkedList",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "гъвкави структури с произволен брой елементи"
+        },
+        {
+          "id": 2,
+          "text": "в тях могат ефективно да се добавят и премахват елементи, но при премахване на елемент, физически, той остава в паметта"
+        },
+        {
+          "id": 3,
+          "text": "при добавяне на нов елемент не се налага разместване на всички останали елементи"
+        },
+        {
+          "id": 4,
+          "text": "всички изброени"
+        }
+      ],
+      "id": 183,
+      "correctAnswerId": 4,
+      "created": "2018-06-09T21:38:23.173Z",
+      "lastUpdated": "2018-06-09T21:39:45.403Z"
+    },
+    {
+      "text": "<p>Кое твърдение се отнася за структурата ArrayList</p>",
+      "plainText": "Кое твърдение се отнася за структурата ArrayList",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "има променлива дължина, която се променя автоматично"
+        },
+        {
+          "id": 2,
+          "text": "има фиксирана дължина, която се определя при инициализация"
+        },
+        {
+          "id": 3,
+          "text": "добавянето и премахването на елементи не може да става динамично"
+        }
+      ],
+      "id": 184,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T21:41:55.126Z",
+      "lastUpdated": "2018-06-09T21:42:21.368Z"
+    },
+    {
+      "text": "<p>В кой ред се съдържат основните видове дървета</p>",
+      "plainText": "В кой ред се съдържат основните видове дървета",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "балансирани, небалансирани, двоични, синтактични"
+        },
+        {
+          "id": 2,
+          "text": "балансирани, небалансирани, разпределени"
+        },
+        {
+          "id": 3,
+          "text": "разпределени, синтактични, бинарни, йерархични"
+        }
+      ],
+      "id": 185,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T21:46:32.773Z",
+      "lastUpdated": "2018-06-09T21:46:38.809Z"
+    },
+    {
+      "text": "<p>Кое твърдение не се отнася за дърветата, като основен тип структура от данни в java</p>",
+      "plainText": "Кое твърдение не се отнася за дърветата, като основен тип структура от данни в java",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "имат йерархична структура"
+        },
+        {
+          "id": 2,
+          "text": "използват се за бързо търсене и сортиране"
+        },
+        {
+          "id": 3,
+          "text": "всеки родител има много наследници, но всеки наследник има точно един родител"
+        },
+        {
+          "id": 4,
+          "text": "всеки родител има много наследници и всеки наследник може да има повече от един родител"
+        }
+      ],
+      "id": 186,
+      "correctAnswerId": 4,
+      "created": "2018-06-09T21:49:27.658Z",
+      "lastUpdated": "2018-06-09T21:49:44.839Z"
+    },
+    {
+      "text": "<p>Посочете вярното твърдение.&nbsp;Добавянето на възли към дърво е безпроблемно</p>",
+      "plainText": "Посочете вярното твърдение. Добавянето на възли към дърво е безпроблемно",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "ако новият възел не нарушава последователността"
+        },
+        {
+          "id": 2,
+          "text": "ако новият възел води до нужда от реорганизация на дървото"
+        },
+        {
+          "id": 3,
+          "text": "към дървото не могат да се добавят нови възли"
+        },
+        {
+          "id": 4,
+          "text": "няма верен отговор"
+        }
+      ],
+      "id": 187,
+      "correctAnswerId": 1,
+      "created": "2018-06-09T21:52:07.430Z",
+      "lastUpdated": "2018-06-09T21:52:52.714Z"
+    },
+    {
+      "text": "<p>Посочете вярното твърдение. Добавянето на възли към дърво е проблемно</p>",
+      "plainText": "Посочете вярното твърдение. Добавянето на възли към дърво е проблемно",
+      "categoryId": 9,
+      "questionSourceId": 1,
+      "questionType": "radio",
+      "answers": [
+        {
+          "id": 1,
+          "text": "ако новият възел не нарушава последователността"
+        },
+        {
+          "id": 2,
+          "text": "ако новият възел води до нужда от реорганизация на дървото"
+        },
+        {
+          "id": 3,
+          "text": "към дървото не могат да се добавят нови възли"
+        },
+        {
+          "id": 4,
+          "text": "няма верен отговор"
+        }
+      ],
+      "id": 188,
+      "correctAnswerId": 2,
+      "created": "2018-06-09T21:53:58.070Z",
+      "lastUpdated": "2018-06-10T20:12:01.147Z"
+    },
+    {
+      "text": "<p>Test</p>",
+      "plainText": "Test",
+      "categoryId": 1,
+      "questionSourceId": 1,
+      "questionType": "open",
+      "id": 189,
+      "created": "2018-06-10T20:12:47.468Z",
+      "correctAnswer": "Hello",
+      "correctAnswerTrimmed": "Hello",
+      "lastUpdated": "2018-06-10T20:14:09.776Z"
     }
   ]
 }

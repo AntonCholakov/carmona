@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AppGlobals } from '../core/services/app.globals';
 import { CategoriesComponent } from './categories/categories.component';
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { QuestionSourcesComponent } from './question-sources/question-sources.component';
@@ -19,35 +20,23 @@ const routes: Routes = [
 			},
 			{
 				path: 'categories',
-				component: CategoriesComponent
-			},
-			{
-				path: 'categories-manage',
 				component: CategoriesComponent,
 				data: {
-					manage: true
+					manage: AppGlobals.isLoggedUserAdmin()
 				}
 			},
 			{
 				path: 'question-sources',
-				component: QuestionSourcesComponent
-			},
-			{
-				path: 'question-sources-manage',
 				component: QuestionSourcesComponent,
 				data: {
-					manage: true
+					manage: AppGlobals.isLoggedUserAdmin()
 				}
 			},
 			{
 				path: 'questions',
-				component: QuestionsComponent
-			},
-			{
-				path: 'questions-manage',
 				component: QuestionsComponent,
 				data: {
-					manage: true
+					manage: AppGlobals.isLoggedUserAdmin()
 				}
 			},
 			{
