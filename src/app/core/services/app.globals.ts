@@ -10,6 +10,10 @@ export class AppGlobals {
 	}
 
 	public static setLoggedUser(user: string): void {
+		if (!user) {
+			user = '';
+		}
+
 		this.loggedUserSubject.next(user.toLowerCase());
 	}
 
