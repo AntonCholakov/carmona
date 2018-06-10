@@ -52,7 +52,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 		this.sortField = 'created';
 		this.sortOrder = 'desc';
 
-		this.searchField = 'name';
+		this.searchField = 'text';
 		this.searchFormGroup = this.fb.group({
 			search: ''
 		});
