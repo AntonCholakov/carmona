@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../environments/environment';
 import { AppGlobals } from './core/services/app.globals';
 
 @Component({
@@ -12,7 +13,11 @@ export class AppComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		const name = prompt('Please enter your name');
-		AppGlobals.setLoggedUser(name);
+		if (environment.production) {
+			const name = prompt('Please enter your name');
+			AppGlobals.setLoggedUser(name);
+		} else {
+			AppGlobals.setLoggedUser('tony');
+		}
 	}
 }
