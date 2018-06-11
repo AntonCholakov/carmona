@@ -53,7 +53,8 @@ export class QuestionCorrectAnswersModalComponent implements OnInit {
 		this.formGroup = this.fb.group({
 			id: question.id,
 			correctAnswerId: question.correctAnswerId,
-			correctAnswer: question.correctAnswer
+			correctAnswer: question.correctAnswer,
+			isCorrectAnswerTrimmed: question.isCorrectAnswerTrimmed
 		});
 
 		if (question.questionType === 'radio') {

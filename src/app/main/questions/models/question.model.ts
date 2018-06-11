@@ -13,6 +13,7 @@ export class Question extends BaseModel {
 	correctAnswerId: number;
 	correctAnswer: string;
 	correctAnswerTrimmed: string;
+	isCorrectAnswerTrimmed: boolean;
 
 	category: Category;
 	questionSource: QuestionSource;

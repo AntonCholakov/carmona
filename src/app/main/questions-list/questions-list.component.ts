@@ -56,13 +56,24 @@ export class QuestionsListComponent implements OnInit {
 	}
 
 	onOpenAnswerKeyUp(question: Question, input: HTMLTextAreaElement): void {
-		const value = input.value.replace(/\s/g, '');
-		if (question.correctAnswerTrimmed === value) {
-			this.renderer.removeClass(input, 'text-danger');
-			this.renderer.addClass(input, 'text-success');
+		if (question.isCorrectAnswerTrimmed) {
+			const value = input.value.replace(/\s/g, '');
+			if (question.correctAnswerTrimmed === value) {
+				this.renderer.removeClass(input, 'text-danger');
+				this.renderer.addClass(input, 'text-success');
+			} else {
+				this.renderer.removeClass(input, 'text-success');
+				this.renderer.addClass(input, 'text-danger');
+			}
 		} else {
-			this.renderer.removeClass(input, 'text-success');
-			this.renderer.addClass(input, 'text-danger');
+			const value = input.value;
+			if (question.correctAnswer === value) {
+				this.renderer.removeClass(input, 'text-danger');
+				this.renderer.addClass(input, 'text-success');
+			} else {
+				this.renderer.removeClass(input, 'text-success');
+				this.renderer.addClass(input, 'text-danger');
+			}
 		}
 	}
 
