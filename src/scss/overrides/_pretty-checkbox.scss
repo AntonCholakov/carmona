@@ -1,0 +1,14 @@
+.pretty {
+	white-space: inherit;
+	margin-bottom: 0.5em;
+}
+
+.pretty .state label{
+	text-indent: 0;
+	padding-left: 2rem;
+}
+
+.pretty .state label:after,
+.pretty .state label:before{
+	top: 0;
+}

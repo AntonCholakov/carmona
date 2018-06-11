@@ -16,12 +16,17 @@
 @import "scss/simple-line-icons-variables";
 @import "~simple-line-icons/scss/simple-line-icons";
 
+@import '~@swimlane/ngx-datatable/release/index.css';
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';
+
 @import "~@ng-select/ng-select/themes/default.theme.css";
 
 @import '~pretty-checkbox/src/pretty-checkbox.scss';
 
 @import "~quill/dist/quill.core.css";
 @import "~quill/dist/quill.snow.css";
+
+@import 'scss/overrides/overrides';
 
 @import "scss/carmona/carmona";
 
