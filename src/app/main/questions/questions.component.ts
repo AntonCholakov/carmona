@@ -5,6 +5,10 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap';
 import { Subscription } from 'rxjs/Subscription';
 import swal from 'sweetalert2';
 import { PagerInformationInterface } from '../../core/interfaces/pager-information.interface';
+import { Category } from '../categories/models/category.model';
+import { CategoriesService } from '../categories/services/categories.service';
+import { QuestionSource } from '../question-sources/models/question-source.model';
+import { QuestionSourcesService } from '../question-sources/services/question-sources.service';
 import { QuestionCorrectAnswersModalComponent } from './modals/question-correct-answers-modal/question-correct-answers-modal.component';
 import { QuestionEditModalComponent } from './modals/question-edit-modal/question-edit-modal.component';
 import { Question } from './models/question.model';
@@ -28,7 +32,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 	sortField: string;
 	sortOrder: string;
 
-	searchFormGroup: FormGroup;
+	formGroup: FormGroup;
 	searchField: string;
 	searchValue: string;
 
@@ -38,7 +42,12 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 	onQuestionSavedSubscription: Subscription;
 	onQuestionCorrectAnswersSubscription: Subscription;
 
+	categories: Category[];
+	sources: QuestionSource[];
+
 	constructor(private questionsService: QuestionsService,
+				private categoriesService: CategoriesService,
+				private questionSourcesService: QuestionSourcesService,
 				private bsModalService: BsModalService,
 				private route: ActivatedRoute,
 				private fb: FormBuilder) {
@@ -53,8 +62,10 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 		this.sortOrder = 'desc';
 
 		this.searchField = 'text';
-		this.searchFormGroup = this.fb.group({
-			search: ''
+		this.formGroup = this.fb.group({
+			search: '',
+			categoryId: '',
+			sourceId: ''
 		});
 
 		this.manage = this.route.snapshot.data.manage;
@@ -62,6 +73,14 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 
 	ngOnInit(): void {
 		this.get();
+
+		this.categoriesService.getAll({}).subscribe((response) => {
+			this.categories = response.body;
+		});
+
+		this.questionSourcesService.getAll({}).subscribe((response) => {
+			this.sources = response.body;
+		});
 	}
 
 	ngOnDestroy(): void {
@@ -169,7 +188,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 	}
 
 	onSearch(): void {
-		this.searchValue = this.searchFormGroup.controls.search.value;
+		this.searchValue = this.formGroup.controls.search.value;
 
 		this.pageNumber = 0;
 
@@ -183,6 +202,9 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 	}
 
 	private get(): void {
+		const categoryId = this.formGroup.value.categoryId;
+		const sourceId = this.formGroup.value.sourceId;
+
 		this.questionsService.getAll({
 			page: this.pageNumber + 1,
 			limit: this.itemsPerPage,
@@ -196,7 +218,15 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 					value: this.searchValue
 				}
 			},
-			expand: ['category']
+			expand: ['category'],
+			getParams: {
+				...categoryId && {
+					categoryId: categoryId
+				},
+				...sourceId && {
+					questionSourceId: sourceId
+				}
+			}
 		}).subscribe((response) => {
 			if (!response.body || !response.body.length) {
 				this.questions = [];
