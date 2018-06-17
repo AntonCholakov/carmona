@@ -201,7 +201,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 		};
 	}
 
-	private get(): void {
+	get(): void {
 		const categoryId = this.formGroup.value.categoryId;
 		const sourceId = this.formGroup.value.sourceId;
 
