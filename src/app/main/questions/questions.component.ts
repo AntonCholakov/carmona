@@ -187,18 +187,11 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 		this.get();
 	}
 
-	onSearch(): void {
+	onFilter(): void {
 		this.searchValue = this.formGroup.controls.search.value;
-
 		this.pageNumber = 0;
 
 		this.get();
-	}
-
-	getRowClass(row: Question): any {
-		return {
-			'invalid-row': (row.questionType === 'radio' && !row.correctAnswerId) || (row.questionType === 'open' && !row.correctAnswerTrimmed)
-		};
 	}
 
 	get(): void {
@@ -238,4 +231,10 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 		});
 	}
 
+
+	getRowClass(row: Question): any {
+		return {
+			'invalid-row': (row.questionType === 'radio' && !row.correctAnswerId) || (row.questionType === 'open' && !row.correctAnswerTrimmed)
+		};
+	}
 }

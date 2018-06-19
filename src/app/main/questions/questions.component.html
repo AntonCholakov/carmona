@@ -10,7 +10,7 @@
 		</div>
 	</div>
 
-	<form [formGroup]="formGroup" (ngSubmit)="onSearch()">
+	<form [formGroup]="formGroup" (ngSubmit)="onFilter()">
 		<div class="row">
 			<div class="col-md-3">
 				<div class="form-group">
@@ -20,7 +20,7 @@
 							   bindLabel="name"
 							   bindValue="id"
 							   formControlName="categoryId"
-							   (change)="get()">
+							   (change)="onFilter()">
 						<ng-template ng-option-tmp let-item="item">
 							{{item.name}}
 						</ng-template>
@@ -36,7 +36,7 @@
 							   bindLabel="name"
 							   bindValue="id"
 							   formControlName="sourceId"
-							   (change)="get()">
+							   (change)="onFilter()">
 						<ng-template ng-option-tmp let-item="item">
 							{{item.name}}
 						</ng-template>
