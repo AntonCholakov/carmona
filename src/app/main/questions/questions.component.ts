@@ -101,7 +101,8 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 		this.questionEditBsModalRef = this.bsModalService.show(QuestionEditModalComponent, {
 			initialState: {
 				question: question
-			}
+			},
+			class: 'modal-lg'
 		});
 
 		this.onQuestionSavedSubscription = this.questionEditBsModalRef.content.onQuestionSavedEmitter.subscribe((response) => {
@@ -126,7 +127,8 @@ export class QuestionsComponent implements OnInit, OnDestroy {
 		this.questionCorrectAnswersBsModalRef = this.bsModalService.show(QuestionCorrectAnswersModalComponent, {
 			initialState: {
 				question: question
-			}
+			},
+			class: 'modal-lg'
 		});
 
 		this.onQuestionCorrectAnswersSubscription = this.questionCorrectAnswersBsModalRef.content.onSaveSuccessEmitter.subscribe(() => {
