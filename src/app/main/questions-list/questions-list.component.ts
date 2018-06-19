@@ -77,6 +77,15 @@ export class QuestionsListComponent implements OnInit {
 		}
 	}
 
+	onExampleShow(input: HTMLTextAreaElement): void {
+		const isHidden = input.classList.contains('d-none');
+		if (isHidden) {
+			this.renderer.removeClass(input, 'd-none');
+		} else {
+			this.renderer.addClass(input, 'd-none');
+		}
+	}
+
 	get(): void {
 		const categoryId = this.formGroup.value.categoryId;
 		const sourceId = this.formGroup.value.sourceId;

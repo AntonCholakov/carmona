@@ -64,9 +64,20 @@
 		</div>
 	</div>
 
-	<div *ngFor="let question of questions"
+	<div *ngIf="questions" class="mt-4">
+		<span class="text-muted">{{questions.length}} questions</span>
+	</div>
+
+	<div *ngFor="let question of questions; let i = index"
 		 class="mt-4">
-		<h3 [innerHTML]="question.text"></h3>
+		<div class="clearfix">
+			<div class="float-left">
+				<span class="question-index">{{i + 1}}. </span>
+			</div>
+			<div class="float-left">
+				<h3 [innerHTML]="question.text"></h3>
+			</div>
+		</div>
 		<ng-container *ngIf="question.questionType === 'radio'">
 			<div *ngFor="let answer of question.answers">
 				<div class="pretty p-default p-curve" #answerInput>
@@ -81,12 +92,20 @@
 			</div>
 		</ng-container>
 		<ng-container *ngIf="question.questionType === 'open'">
+			<button class="btn btn-default btn-sm" (click)="onExampleShow(textareaInputExample)">Show/Hide example</button>
+			<textarea #textareaInputExample
+					  class="form-control d-none"
+					  rows="10">{{question.correctAnswer}}</textarea>
 			<textarea #textareaInput
 					  class="form-control"
 					  rows="10"
 					  placeholder="Input your answer..."
 					  (keyup)="onOpenAnswerKeyUp(question, textareaInput)"></textarea>
 		</ng-container>
+	</div>
+
+	<div *ngIf="questions" class="mt-4">
+		<span class="text-muted">{{questions.length}} questions</span>
 	</div>
 
 </div>
