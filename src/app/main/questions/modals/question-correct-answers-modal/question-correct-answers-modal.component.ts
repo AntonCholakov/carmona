@@ -54,7 +54,8 @@ export class QuestionCorrectAnswersModalComponent implements OnInit {
 			id: question.id,
 			correctAnswerId: question.correctAnswerId,
 			correctAnswer: question.correctAnswer,
-			isCorrectAnswerTrimmed: question.isCorrectAnswerTrimmed
+			isCorrectAnswerTrimmed: question.isCorrectAnswerTrimmed,
+			explanation: question.explanation
 		});
 
 		if (question.questionType === 'radio') {

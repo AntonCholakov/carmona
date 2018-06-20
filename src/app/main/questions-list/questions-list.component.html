@@ -92,7 +92,8 @@
 			</div>
 		</ng-container>
 		<ng-container *ngIf="question.questionType === 'open'">
-			<button class="btn btn-default btn-sm" (click)="onExampleShow(textareaInputExample)">Show/Hide example</button>
+			<button class="btn btn-default btn-sm" (click)="onExampleShow(textareaInputExample)">Show/Hide example
+			</button>
 			<textarea #textareaInputExample
 					  class="form-control d-none"
 					  rows="10">{{question.correctAnswer}}</textarea>
@@ -102,6 +103,16 @@
 					  placeholder="Input your answer..."
 					  (keyup)="onOpenAnswerKeyUp(question, textareaInput)"></textarea>
 		</ng-container>
+		<div class="mt-3">
+			<button *ngIf="question.explanation"
+					type="button"
+					class="btn btn-default btn-sm"
+					[popover]="question.explanation"
+					triggers="focus"
+					placement="right"><i class="fa fa-eye"
+										 aria-hidden="true"></i> Help
+			</button>
+		</div>
 	</div>
 
 	<div *ngIf="questions" class="mt-4">

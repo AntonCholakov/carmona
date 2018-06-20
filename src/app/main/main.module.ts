@@ -4,6 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
+import { PopoverModule } from 'ngx-bootstrap';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { QuillModule } from 'ngx-quill';
@@ -32,6 +33,7 @@ import { QuestionsService } from './questions/services/questions.service';
 		NgxDatatableModule,
 		NgSelectModule,
 		ModalModule.forRoot(),
+		PopoverModule.forRoot(),
 		SweetAlert2Module,
 		QuillModule,
 		BsDropdownModule,

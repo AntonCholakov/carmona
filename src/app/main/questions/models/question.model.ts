@@ -14,6 +14,7 @@ export class Question extends BaseModel {
 	correctAnswer: string;
 	correctAnswerTrimmed: string;
 	isCorrectAnswerTrimmed: boolean;
+	explanation: string;
 
 	category: Category;
 	questionSource: QuestionSource;
