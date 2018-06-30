@@ -95,6 +95,7 @@ export class QuestionsListComponent implements OnInit {
 		const sourceId = this.formGroup.value.sourceId;
 
 		this.questionsService.getAll({
+			expand: ['questionSource'],
 			getParams: {
 				...categoryId && {
 					categoryId: categoryId

@@ -8,6 +8,6 @@ import { QuestionSource } from '../models/question-source.model';
 export class QuestionSourcesService extends CrudService<QuestionSource, RequestOptions<QuestionSource>> {
 
 	constructor(http: HttpInterceptor) {
-		super(http, '/question-sources');
+		super(http, '/questionSources');
 	}
 }
