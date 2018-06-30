@@ -1,6 +1,8 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap';
+import * as QuillNamespace from 'quill';
+import ImageResize from 'quill-image-resize-module';
 import { FormUtil } from '../../../../core/services/form.util';
 import { Category } from '../../../categories/models/category.model';
 import { CategoriesService } from '../../../categories/services/categories.service';
@@ -9,6 +11,9 @@ import { QuestionSourcesService } from '../../../question-sources/services/quest
 import { Answer } from '../../models/answer.model';
 import { Question } from '../../models/question.model';
 import { QuestionsService } from '../../services/questions.service';
+
+const Quill: any = QuillNamespace;
+Quill.register('modules/imageResize', ImageResize);
 
 @Component({
 	selector: 'app-question-edit-modal',
@@ -135,8 +140,12 @@ export class QuestionEditModalComponent implements OnInit {
 				['code-block'],
 				[{'list': 'ordered'}, {'list': 'bullet'}],
 				[{'color': []}, {'background': []}],
-				[{'font': []}]
-			]
+				[{'font': []}],
+				['image']
+			],
+			imageResize: {
+				modules: ['Resize', 'DisplaySize']
+			}
 		};
 	}
 
