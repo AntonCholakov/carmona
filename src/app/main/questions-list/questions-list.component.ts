@@ -86,6 +86,10 @@ export class QuestionsListComponent implements OnInit {
 		}
 	}
 
+	onScrollToTop(): void {
+		window.scroll(0, 0);
+	}
+
 	get(): void {
 		const categoryId = this.formGroup.value.categoryId;
 		const sourceId = this.formGroup.value.sourceId;
